@@ -1,0 +1,196 @@
+Short overview of the four ISO 27001 clauses that cover the Plan phase of the PDCA cycle: 4 Context of the organization, 5 Leadership, 6 Planning, and 7 Support.
+
+The planning phase includes conducting relevant analyses and assessments that will give you input on how to design and implement an effective Information Security Management System (ISMS) in your organization. This phase is important because it designs how the Information Security Management System will look before you start implementing it as part of the Do phase. Please note: Because of the importance and the complexity of the risk management process, that topic will be explained in the next module; this module will focus on the other elements of the planning phase.
+
+Here are a few materials that will help you better prepare for this module:
+
+Compulsory reading:
+
+     Organizational roles, responsibilities and authorities [clause 5.3] Information security objectives [clause 6.2] Resources [clause 7.1] Competence [clause 7.2] Awareness [clause 7.3] Communication [clause 7.4] Documented information [clause 7.5] Related documentation Recap quiz
+    Module 3 - Risk management
+    Module 4 - The Do phase
+    Module 5 - The Check and Act phases
+    Module 6 - Overview of Annex A
+    Instructions for taking the exam
+
+Advisera Dejan KosuticInstructor
+Dejan Kosutic
+97.26%
+
+ISO 27001 Foundations Course
+Module 2 - The planning phase
+Introduction & suggested reading
+
+This module will give you a short overview of the four ISO 27001 clauses that cover the Plan phase of the PDCA cycle: 4 Context of the organization, 5 Leadership, 6 Planning, and 7 Support.
+
+The planning phase includes conducting relevant analyses and assessments that will give you input on how to design and implement an effective Information Security Management System (ISMS) in your organization. This phase is important because it designs how the Information Security Management System will look before you start implementing it as part of the Do phase. Please note: Because of the importance and the complexity of the risk management process, that topic will be explained in the next module; this module will focus on the other elements of the planning phase.
+
+Here are a few materials that will help you better prepare for this module:
+
+Compulsory reading:
+
+1.    ISO 27001 standard (full name: ISO/IEC 27001:2022 Information technology – Security techniques – Information security management systems – Requirements)
+2.    article: How to perform training & awareness for ISO 27001 and ISO 22301
+3.    article: How to create a Communication Plan according to ISO 27001
+
+
+2. article: How to perform training & awareness for ISO 27001 and ISO 22301
+===========================================================================
+Most of the information security/business continuity practitioners I speak with have the same problem: the employees in their companies don’t take them seriously – not only the top managers, but also their peers.
+
+This is due to the fact that the employees usually do not understand what information security or business continuity is all about – in other words, you may have perfect policies and procedures, but simply pushing those to your internal email list won’t help. You need to explain to your colleagues why information security and business continuity are needed, and how to perform certain tasks – that’s the main purpose of ISO 27001 awareness and training.
+
+
+
+The training cycle in ISO 27001 and ISO 22301:
+
+    Define which knowledge and skills are required.
+    Perform trainings to reach the desired level.
+    Measure whether each individual has achieved the desired level.
+
+
+The training cycle
+
+Both ISO 27001 and ISO 22301 require you to deal with training in a systematic manner, i.e. to perform these steps:
+
+Traning cycle.png
+
+
+
+1.    Define which knowledge and skills are required for particular personnel who have a role in your information security management system (ISMS) or business continuity management system (BCMS) – basically, you need to go through every ISMS or BCMS document and see what knowledge and skills are required of every responsible person mentioned in the document.
+2.    Perform trainings to reach the desired level of knowledge and skills – see below for methods.
+3.    Measure whether each individual has achieved the desired level of knowledge and skills – through testing, interviews, etc. – once you know where the gaps are, you can start again with step #1.
+
+
+Methods of training
+
+Very often, the trainings are planned via the Training plan – for example, you can plan for the following:
+
+    Courses – see this article for more information: How to learn about ISO 27001 .
+    Reading literature – there are many information security and business continuity books available, as well as magazines.
+    Participating in expert forums on the Internet – in some of those you can get very concrete answers to your questions – for example, Expert Advice Community or ISO 27001 security.
+    In-house trainings – delivered either by in-house experts, or by hiring consultants, certification bodies or similar.
+
+Methods of awareness-raising
+
+As opposed to trainings, which give an answer to the question “How?”, awareness must give an answer to the question “Why?” – that is, explain to your employees why they should accept information security or business continuity.
+
+There are many methods you can use, for example:
+
+    Include employees in documentation development – before you publish the documents, ask your employees to give their inputs (see also: Seven steps for implementing policies and procedures).
+    Presentations – organize shorter meetings where you can explain what new policies and procedures are being published, ask your employees for opinions about them, clarify any misunderstandings.
+    Articles on your intranet or newsletter – simple stories (with as many examples as possible) that can help employees understand why information security / business continuity are important.
+    Discussions through internal forums – you can initiate and participate in concrete questions (and myths) arising from information security / business continuity.
+    E-learning – you can create short online trainings that explain the significance of these topics, as well as train your employees.
+    Videos – they are a very powerful presentation method – you can distribute them via email, through the intranet, etc.
+    Occasional messages (via email or via your intranet) – can be used not only to distribute videos, but also to send relevant news and tips for business continuity.
+    Gatherings – use some regular meetings that are organized in your company – e.g., parties, anniversaries, etc. to briefly present what you are doing and how it affects your colleagues.
+    And, above all – day-to-day in-person communication – everywhere you go, whomever you speak to – you have to sell the idea of information security / business continuity.
+
+No matter which of these methods you use, the point is that you do them systematically – again, you should prepare some kind of a plan where you should define which of these methods you will perform, and how often.
+
+https://www.youtube.com/watch?v=rWye8Hvf6sI
+
+The implementation myth
+
+So, as I emphasized in this article: The documentation myth – Why the templates are not enough?, simply writing the policies and procedures won’t be enough – you need to use awareness and trainings as a helping tool to enable the documentation to be implemented.
+
+However, the timing here is also crucial: many companies make the mistake of publishing all of their documents at once. For example, if you publish 30 policies and procedures at the same time, then unfortunately, not even the best awareness programs can help you – your employees will (very correctly) start to think of your information security / business continuity as overkill.
+
+Therefore, you have to publish your documentation gradually – the speed of publishing your new documents must be not be the speed of developing them, but the speed by which your employees will be able to accept them via your ISO 27001 awareness and training programs.
+Benefits of security awareness training for companies
+
+Security awareness, and especially training, are not (always) free though, so how do we justify the expense? Let’s examine the five potential business benefits.
+
+Organizational benefits of security awareness and training.png
+
+
+1.    Reducing resistance to information security
+    Given sufficient awareness and/or training, employees make better, more effective, and more efficient use of security controls. For starters, they appreciate that the controls are there for good reason; hence, they are less likely to ignore, bypass, or disable them. Understanding why we need long passwords, for instance, and how to choose strong, yet memorable passwords or passphrases, makes it easier to be secure. Employees refusing to disclose or share their passwords is another control bolstered through awareness and training.
+2.    Improved information security, privacy, and compliance
+    The most immediate benefit of awareness and training arises from improvements to the organization’s information security arrangements. A clear desk policy, for instance, is almost worthless if employees don’t know about it, don’t care, and can’t be bothered to comply. Awareness to the rescue! The mere existence of the policy is, in itself, a sign that management appreciates the need, while its clarity, focus, and motivational effectiveness depend on the author/s being sufficiently clued up. As an integral part of an organization-wide approach to information risk management, security awareness and training enable all the other security controls, and support the achievement of a wide range of business objectives – including compliance with privacy, accounting, governance, and other laws and regulations.
+3.    Avoided or reduced costs from information security incidents, breaches, etc.
+    Compared to the average organization, a security-aware workforce, supported and guided by highly trained security professionals, is less likely to suffer information security incidents, privacy breaches, unplanned downtime, and so forth. Employees who know what to look out for are less likely to fall for obvious scams or to ignore the early signs of trouble. They are the equivalent of skilled drivers, being extra cautious when appropriate and able to make good progress when the road conditions are favorable. What’s more, any incidents that do occur are likely to be shorter and more limited due to employees’ spotting and reacting appropriately. Incident response can’t start until an incident is recognized and reported, both of which depend on employees knowing what to do, without delay.
+4.    Improved reputation and greater trustworthiness
+    If a majority of the workforce is security-aware, outsiders and visitors perceive an organization that clearly takes security and privacy seriously. From the moment someone arrives at the premises or visits the corporate website, there are clues – some obvious, such as warning signs and security certificates, and others that are more subtle, such as efficiently following structured processes. Differences in how people and organizations interact affect the extent to which they are willing to depend on each other. Trust is a major factor in commerce, and a significant part of an organization’s reputation and brands. Consider the differences between shopping at a temporary street market compared to, say, a department store, or a backstreet car lot compared to a major dealer. In business, impressions matter!
+5.    Situational awareness
+    “Situational awareness” is almost a sixth sense. It’s hard to explain precisely why an email or phone call “doesn’t seem quite right,” especially as each situation is different; hence, it is impossible to define precise rules on what to look out for. It is true that many phishing emails start with a nonspecific greeting such as “Dear customer,” but some don’t: spear-phishing attacks commonly use the recipient’s name, often with other information intended to give the appearance that the sender is a colleague, acquaintance, or friend. What’s more, that inkling of something wrong achieves nothing unless the employee reacts appropriately, not opening the attachment or clicking the link, for instance, and perhaps seeking help to check out the message.
+
+https://www.youtube.com/watch?v=4IXNKRK2SjQ
+
+
+Better safe than sorry
+
+Besides being a long-term investment in the overall business success, awareness and training are an integral and essential part of any sensible approach to information security. If you are still not convinced of its purpose and value, consider the alternative: sure, the organization won’t have to pay for security awareness materials and training activities, but employees will be naïve, uninformed, and unmotivated. Security controls will be neglected, forgotten, and sometimes disabled or bypassed for the sake of convenience. The organization will appear untrustworthy, its reputation and bottom line both tarnished by incidents and breaches that should have been prevented or mitigated.
+
+
+3.    article: How to create a Communication Plan according to ISO 27001
+========================================================================
+
+Communicating is a key activity for any human being. This is also the case for an organization. It helps through exchanging the most correct information to the best audience and at the best moment. It is certainly important in security management, because you want people to react in the proper way.
+
+Important also is that effective communication, in content, format and time, creates trust both from internal and external parties. It shows how prepared you are, and whether you are reactive or, better, proactive.
+
+ISO 27001 addresses the communication issue three times, and organizations wanting to implement the ISMS have to look closely at these requirements.
+
+What exactly is a Communication Plan?
+
+Clause 7.4 requires a clear answer to a series of questions on security issues: Who should communicate? To whom? What messages? On what? When? And how?
+
+Let’s look more closely at how to address these questions.
+
+On what? (content) Organizations should clearly communicate on what is important to them: the need for information security and the need to conform to the requirements and policies.
+
+It will address risk management issues, new or changed security objectives, and vulnerabilities, events or incidents to initiate the adequate answer of all, and especially the trained personnel who perform the planned reaction. Celebrating achievements and congratulating exceptional security behaviors has very positive effects.
+
+Including security clauses and requirements in the contract is also a way to communicate your requirements to services and product providers. Hence, it could be considered a part of the Communication Plan.
+
+What messages? (form & format) Messages should be clear in their form and content to produce the expected behavior. The type of communication medium is looked at here. You can use short stories, images, metaphors, or cartoons.
+
+Messages should be short and focused on their real intent. You certainly remember the SMART criteria that you can use to make sure the message is complete.
+
+Who? Organizations should clarify who is authorized to communicate, especially with external parties. Internally, top management and the CISO and the help desk are good examples. Big companies have their Public Relations Officer to communicate with the external parties.
+
+The communicator should have the appropriate authority to make sure the message will be received with the necessary attention and will be followed by the expected action or reaction.
+
+To whom? Not everybody should receive all messages. Messages should be aimed at a specific audience, depending on the classification of the information, the necessary technical knowledge, and the role in the organization. The Communication Plan should be effective and addressed only to those who will benefit from it or need to act based on it – e.g., different interested parties like users, partners, internal and external service providers, regulating bodies, shareholders, etc. See also this article: How to identify interested parties according to ISO 27001 and ISO 22301.
+
+How? (process) The simplest and first way is the security policy and all the documents that describe what to do (and how) to meet the objectives of the policy. Messages should be prepared and approved, particularly in the case of incidents and crises.
+
+Defined channels (and protocols) should be utilized to make sure the communication reaches the intended audience at the best moment and with the best possible effectiveness. Examples: emails, pop-up screens, screensavers, posters, audio messages, meetings, policies and directives, etc.
+
+When? Communication should be both continuous and event-based (in reaction to events).
+
+You should make sure the communicated message is continuously retransmitted, for example, to newcomers and at repeated intervals, to make sure it won’t get forgotten.
+
+You also should be able to modify the messages or introduce new messages or formats and channels when the situation requires it. Communicating in normal conditions might be seriously different in comparison to during incidents or in crises.
+
+Internal vs. External Communication Plan
+
+It is important to recognize that the Communication Plan has both internal and external aspects. They will respond differently to the following questions.
+
+Internal Communication Plan. Top management uses the internal Communication Plan to send messages on its objectives and commitment toward information security. Some examples are: The Information Security Policy, the security organization with the key roles and responsibilities, the Awareness plan, the general and specific requirements to respond to incidents.
+
+However, the internal Communication Plan should not remain unidirectional. The channels (telephone and email, for example) should also be known and used to communicate “bottom-up” from the base (the users) to the management about events or some new vulnerability.
+
+External Communication Plan. Most of the examples given above relate to the internal Communication Plan, but are also fully applicable to the external Communication Plan.
+
+You may need to communicate to the external world: regulatory authorities, public authorities, shareholders, clients and partners, to announce events either positive (successes) or negative (incidents, accidents and crises). Here also you will need a Communication Plan answering the same questions as above.
+
+However, in this case, you’ll have to use more caution as you may not expose or disseminate sensitive information that will make your situation worse.
+
+
+How to document the Communication Plan?
+
+Depending on the size of the organization and its security objectives, the Communication Plan could be more or less formal, fully documented as a separate document or simply stated in a few sentences within other policies, procedures and plans.
+
+As long as the desired messages are passed to those who should make the best of it, your solution will fit your needs and the resources you can devote to it.
+
+Why is a Communication Plan important?
+
+To conclude, the Communication Plan is a question of creating and maintaining trust and confidence in 1) your preparedness, 2) your capability to face events, and 3) your ability to recover from crises.
+
+The Communication Plan is a key element of a good Information Security Management System. One of the Returns On (Security) Investment of a good Communication Plan, as required by ISO 27001, is a strong image, both internal and external. Losing internal (or stakeholders’) trust is sometimes worse than losing your public image. You risk implosion.
+
+
+
