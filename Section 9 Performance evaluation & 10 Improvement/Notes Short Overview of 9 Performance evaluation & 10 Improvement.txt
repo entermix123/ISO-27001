@@ -1,0 +1,301 @@
+Short overview of the ISO 27001 clauses that cover the Check phase of the PDCA cycle: 9 Performance evaluation, as well as the Act phase: 10. Improvement.
+
+The Check phase includes conducting regular monitoring and measuring, internal audits, and management reviews. This phase is important because it sets the basis for identifying areas for improvement of the Information Security Management System, and identifies gaps between what has been planned for in the Plan phase, and what has really been achieved. The Act phase includes implementing corrective actions and improvement initiatives. The significance of this phase lies in the fact that it provides companies with tools for implementing the identified corrections and improvements identified in the Check phase and enables continual improvement of the ISMS.
+
+
+Compulsory reading:
+
+1.    article: How to maintain the ISMS after the certification
+2.    article: How to perform monitoring and measurement in ISO 27001
+3.    article: How to make management review more practical 
+4.    article: Complete guide to corrective action vs. preventive action
+
+
+
+1. article: How to maintain the ISMS after the certification
+============================================================
+If you thought that your job was over after the ISO 27001 certification, you’re wrong – the real job with your Information Security Management System (ISMS) has just begun.
+
+OK, but where do you start? The good news is that you already have all the directions in your documentation, but here’s an overview on what you have to focus on:
+
+1) Operate the ISMS. First of all, you have to make sure you perform all the activities described in your policies and procedures. And I don’t mean just artificially creating some records and pretending that you are doing some activities because of the auditors – I mean really walking the talk, complying with all the requirements in all of your documents and producing the real records. If you think this makes no sense, then you have to simplify your documents or delete some documents that are not mandatory.
+
+2) Update the documentation. Circumstances in your company will change – you’ll create some new products, you’ll purchase some new software, your organization will change, etc. This means you’ll have to update your policies or procedures or they will become useless. Best practice is to nominate an owner for each document, and that person will have to review his or her document periodically (usually once a year), and recommend possible changes.
+
+3) Review the risk assessment. Again, because of the changed circumstances, the threats and vulnerabilities will change, meaning your risks will change; and if your risks have changed, this means your existing controls won’t be enough. This is why you should send the results of the last risk assessment to the risk owners so that they can review them and update if necessary – once this is done, you have to implement new controls based on those results. This review must be done at least once a year, or more often if some significant change has occurred.
+
+4) Monitor and measure the ISMS. Although this one seems too abstract and probably the most difficult one to achieve, it is also one of the most important – otherwise, how would you know whether you’re doing a good job or not? When speaking about monitoring, you have to keep an eye on various security-related events like incidents, errors, exceptions, etc. Based on this information, you can learn what to do better and how to prevent future incidents from happening. But this is not all – you have to measure whether your ISMS achieves the intended results. To do this, you have to measure if you have achieved the objectives – for example, if the objective was to decrease the number of incidents by 50% in the current year, you have to take the actual number from the results of monitoring, and compare it with the number of incidents in the previous year. Read also ISO 27001 control objectives – Why are they important?
+
+5) Perform internal audits. This might seem just like one of those “Oh no, another useless ISO 27001 job,” but the fact is – when done properly, an internal audit can reveal to you many more security weaknesses than most of the other activities together. To achieve this you have to either train some of your employees to do this job, or hire an external auditor. No matter which option you choose, you have to enable this person to do the job thoroughly and be prepared to act upon the audit results. Read also: ISO 27001 internal audit: The complete guide.
+
+6) Perform management review. This is a crucial activity, since it actively involves your top management in your information security. You have to inform them about the key issues related to your ISMS, and ask them to make crucial decisions – for example, changes in organization, providing the budget, eliminating obstacles, etc. Learn more here: Why is management review important for ISO 27001 and ISO 22301?
+
+7) Perform corrective actions. Again, this is not some “ISO 27001 job,” because corrective actions are something you perform regularly – most probably you do make improvements to what you are doing, only you don’t call them “corrective actions,” so the trick is to continue making those improvements in the form that is acceptable to ISO 27001. See also Complete guide to corrective action vs. preventive action.
+
+And don’t forget that the certification body will perform surveillance visits at least once a year – they will check all the seven issues listed above, but also whether you closed all the non-conformities from their last visit, so make sure you didn’t forget about them. See also Surveillance visits vs. certification audits.
+
+But basically, the maintenance of your ISMS comes down to this: you should do it because of yourself, in order to make your company more secure – not because of a certification auditor.
+
+
+
+
+
+2. article: How to perform monitoring and measurement in ISO 27001
+==================================================================
+Performance monitoring and measurement are key actions in the maintenance and improvement of any system. (See this article for more information: Achieving continual improvement through the use of maturity models.) ISO 27001 recognizes their importance in clause 9.1 (Monitoring, measurement, analysis and evaluation), defining requirements to be observed when implementing such practices.
+
+This article will present some tips about making monitoring and measurement useful to your business while complying with the standard.
+Differences between monitoring and measurement
+
+When you do monitoring, you are watching something, usually devices and applications, with the purpose of being aware of its state; e.g., is it on or off, moving or stationary, processing quickly or slowly, etc.
+
+On the other hand, when you do measurement, you are assigning value to something based on predefined dimensions and units, e.g., processed data in registers per second, session duration in minutes, or datacenter room temperature in degrees Celsius (°C) or Fahrenheit (°F).
+
+While monitoring is less complex (watch and detect) and can provide a quicker alert when things become different than expected, the complexity of measurement (value, dimension, and unit) can provide more detailed information about the situation and how things should be handled.
+
+Why do I need them?
+
+In general, you do monitoring and measurement for at least one of these reasons:
+
+    To validate previous decisions: Management review decision follow ups are examples for this case, since you must provide evidence that actions you implemented were effective.
+    To set direction for activities in order to meet set targets: Planning backup activities is a good example, since these data can be used to choose between multiple alternatives (full, incremental, or differential backup, or a combination of these). For more information, please see this article: ISO 27001 control objectives – Why are they important?
+    To present factual evidence to justify a required course of action: Business cases for updating a firewall or implementing cryptography require strong and consistent data to sell an idea to management and interested parties.
+    To identify a point of intervention and subsequent changes and corrective actions: Cause analysis in an access control process problem is a good example of the use of monitoring and measurement data for this reason.
+
+ISO 27001 requirements
+
+Clause 9.1 of ISO 27001 establishes two aspects to be monitored and measured: information security performance and ISMS effectiveness.
+
+The basic difference between them is that while information security performance deals individually with security results viewed as relevant to the organization (e.g., information availability, event response time, protection costs, etc.), the ISMS effectiveness shows you how the interaction between these individual security results affects security as a whole, including compliance with the standard. For example, you can have good information availability and response time to incidents, but if these results demand high protection costs, in a general view, the security results may not be so good.
+
+Therefore, without proper monitoring and measurement, you can finish with good individual security results that don’t add business value, or that don’t comply with the standard´s requirements and demand undesired adjustment efforts, or both.
+
+To help prevent these situations, clause 9.1 of ISO 27001 establishes some items that must be set to ensure proper monitoring and measurement:
+
+    What needs to be monitored / measured: First, identify all business results and processes that can be affected by variations on information security performance, including the information security controls and processes themselves, and mandatory requirements like laws, regulations, and contractual obligations. E-commerce systems’ availability, accounting data integrity, and special access rights review are good examples.
+-    Which methods may be used for monitoring / measurement: Here you can choose any method you are comfortable with (e.g., manual, mechanical, by software, etc.). The critical criterion is that the chosen method must be verifiable (capable of producing comparable and repeatable results).
+-    When monitoring / measurement must be done: Different needs require different monitoring / measurement times and you must consider this, including periodicity. For example, an application can have monitoring / measurement points at data input, during data processing, or at data output. Restricted internal use applications may be monitored / measured in periodicities longer than Internet-oriented applications.
+-    When monitoring / measurement results must be analyzed and evaluated: To add value to the business, the monitoring / measurement results must be considered on decisions and actions at proper times. Considering them too soon or too late may result in unnecessary effort, wasted resources, or loss of opportunities.
+-    Who must analyze and evaluate monitoring / measurement results: As important as when the data is analyzed / evaluated is who does this. In general, the operational level should perform analysis (e.g., technicians and administrators), while management staff performs evaluations.
+
+Additionally, there is a specific requirement related to preservation of evidence of monitoring and measurement results, to fulfill the standard’s clause 7.5 (documented information). Control charts, checklists, and analysis reports reviewed by management are good examples of proper documentation to be preserved. Besides ensuring compliance with the standard, by doing that you are also building a monitoring / measurement history that can help you better track the organization’s results, as well as learn from past problems.
+Achieve better results through good monitoring and measurement
+
+Change is the only constant in life, so your organization should be prepared for it. Monitor closely what has more impact on your results, and measure what can bring you more advantages in avoiding threats and seizing opportunities. Your results will benefit.
+
+
+
+
+3. article: How to make management review more practical 
+========================================================
+
+It comes as a surprise to many people that there is no requirement in ISO9001 for Management Review Meetings. The standard does not mention meetings at all, only that company Top Management must review the Quality Management System (QMS) at planned intervals to ensure continuing suitability, adequacy and effectiveness (basically, that the system is still doing what the company needs it to do). The review needs to assess information from a list of Management Review Inputs to assess opportunities for improvement and determine needs to change the QMS, Quality Policy & Objectives.
+What are the required Management Review Inputs?
+
+Although other inputs could be added as desired by the company, ISO9001 has a minimum list of seven inputs that Top Management needs to review to assess the health of the QMS. If you are to satisfactorily assess information to judge the QMS to be adequate, without holding a meeting, there are several smaller reviews that need to happen. Some ideas on how to accomplish this are below.
+
+Results of Audits: Does the Company Management Representative review the audit reports and ensure that they are included in the audit planning for the year? If this is the case, then you have someone in Top Management who is reviewing the results of audits and how they are improving the Management System. Any audit reports, if they include this review information, are not only records of the audits, but also records of the Management Review.
+
+Customer Feedback: Do you keep a log of the customer feedback that has been received? Does this log include a record of any actions taken and which manager is responsible for this? If you ensure that Top Management is involved in the review of these logs as they are processed, and many top managers are more than interested in customer satisfaction, then you have a record of not only review of these issues, but management of resources to address them.
+
+Process Performance and Product Conformity: Does your company keep metrics of the main processes, sometimes called Key Process Indicators (KPIs), which are used to judge the adequacy of the processes? Often, these will include the Non-Conforming Material process as one of the indicators. If these KPIs are in place, reviewed by identified members of Top Management, and used to make resource decisions on improvements to the processes then a Management Review is taking place.
+
+Status of Preventive & Corrective Actions: If Top Management is involved in the review steps of the Corrective and Preventive Action process, ensuring follow-up to improve the system and the resource needs to address them, then the Management Review of this input can be considered to be in place without additional meetings. To learn more, see article Seven Steps for Corrective & Preventive Action.
+
+Follow-up Actions from Previous Management Reviews: If the actions already mentioned are followed up on to ensure they were implemented, this requirement is accomplished. The important thing is to ensure that the records kept show this follow-up review.
+
+Changes that Could Affect the Quality Management System: The Quality Management Representative is often responsible for tracking outside influences that could affect the system, such as the draft of ISO9001:2015 (expected release in 2015), or an upcoming change in government regulations that affect your industry. If these are logged and tracked, the review is easily shown. In addition, the stated reviews on internal information, such as recommendations for improvement or internal audits, address internal changes.
+
+Recommendations for Improvement: Some recommendation for improvement, such as those coming out of the Internal Audit, can be addressed as part of that system as stated above. Other recommendations, such as from an employee suggestion system, will often be tracked on a log which can be reviewed. For complex suggestions, Top Management might need to approve the expenditure required to implement the suggestion. In all cases, if you have representatives of Top Management involved in the review processes, then the need for Management Review is satisfied.
+
+
+
+What are the Required Management Review Outputs?
+
+It is important to note that there is no requirement for any minutes of meeting, but records need to be maintained to show that Management Review successfully identified the following outputs for the Quality Management System:
+
+Improvement of the Effectiveness of the System: The improvements outlined above, if the involvement of Top Management is documented, show that improvement of the QMS is taking place. The importance for any record is to ensure it is complete.
+
+Improvement of Product Related to Customer Requirements: When management reviews the information for Product Conformity and Customer Feedback, do they take actions to improve the product to meet customer requirements? If so, this not only makes your product more marketable, and improves customer satisfaction, but also satisfies this requirement for the output of Management Review.
+
+Resource Needs: Top Management is almost always involved in the overall resource planning of a company; in fact, it is one of their most important roles. All that needs to happen is the documentation of the reasons behind the choices of resource needs to be able to show that the review of Top Management has resulted in this plan.
+
+
+Why conducting Management Review without a dedicated meeting is a good idea
+
+While a Management Review makes it easy for the external auditor to review this requirement, it is not the responsibility of company management to make things easy for the auditor, but instead to ensure that their company functions well. Many companies that are using a Management Review Meeting normally do so on an annual basis or, at best, quarterly. For the important inputs, this can scarcely be often enough; for instance, if you only look at customer feedback every three months, you could have very dissatisfied customers due to slow response, and, if customer feedback is reviewed on a more routine basis, why not take credit for this ongoing work rather than slotting in a token meeting just for show? Such inefficient meetings are a source of cost, and good businesses try to avoid cost whenever possible.
+
+
+
+
+
+
+4. article: Complete guide to corrective action vs. preventive action
+=====================================================================
+CAPA meaning
+
+CAPA is an acronym for “corrective and preventive action.” Though these might sound similar, they are not the same. Let’s look at the differences in corrective vs preventive action.
+
+Corrective and preventive action — What are the differences?
+
+Both corrective action and preventive action are designed to address problems that can occur in a process. The difference between corrective action vs preventive action lies in the timing and the situation. Corrective actions (CA) take steps to fix the cause of a problem after the problem has occurred, whereas preventive actions (PA) involve noticing the problem before it occurs, and taking steps to address the cause of the problem — before it happens.
+
+It is important to note that corrective and preventive action plans share many common elements, while the primary difference is the trigger for the action. Corrective actions are initiated in response to a specific, isolated incident, whereas preventive actions are driven by data analysis. Preventive actions address potential issues identified through trends or patterns in data, aiming to improve future performance. For example, if the defect rate last year was 2% and the goal for this year is to reduce it to 1.5%, failure to achieve this improvement would be considered a non-conformity, necessitating preventive measures.
+
+Let’s look at the difference between corrective and preventive action in more detail.
+
+
+Corrective action definition
+
+The meaning of corrective action is the reactive process used to eliminate the cause of an existing process nonconformity. Rather than preventing a problem before it occurs, the corrective action process involves identifying a problem, getting it under control through containment actions, and then taking the action needed to stop it from happening again.
+Preventive action definition
+
+We can define preventive action as the proactive process of identifying potential problems that could happen in a process, assessing what could cause these problems, and then taking action to prevent each problem from occurring before it happens. In short, the preventive action process is designed to prevent a potential problem from occurring in the first place.
+
+Corrective action and preventive action examples
+
+Let’s look at some examples to help us better understand corrective action vs preventive action:
+
+    Corrective action – I hurt myself on a table. I find that the cause is the sharp corners on the table, so I take action to round the corners of the table so that no one else gets hurt. This includes the actions to change the design so that future tables will be made with rounded corners.
+    Preventive action – I notice that the sharp corners of a table could cut someone (even though no one has been injured), so I take action to round the corners and change the future table design to have rounded corners.
+
+This is an example that uses a product problem, where CAPA in the management system normally involves process problems, but with this example it is easy to see the difference between preventive action vs corrective action.
+
+As you can see in the chart below, the CAPA process figures prominently in several international standards and the management systems based on them — although corrective action has more recently become the focus, rather than preventive action.
+
+Corrective vs. Preventivae Actions.png
+
+
+Why do the recent ISO standards require corrective action and not preventive action?
+
+The previous versions of ISO 27001, ISO 9001, ISO 14001, and other standards that align with Annex SL included requirements for a corrective action process and a preventive action process as part of the management system. The steps involved in both were essentially the same, but the action that triggered the process was different; corrective action reacted to a problem that occurred, where preventive action was initiated by the identification of a potential problem. There was often confusion about this when implementing earlier versions of these management systems; some people only used their preventive action process a few times, as it is a complex process and takes time away from reacting through corrective actions. Still other people interpreted any action taken during the corrective action process to prevent a recurrence to be preventive action.
+
+The most recent release of the management system standards aligned with Annex SL, such as ISO 27001:2013, ISO 9001:2015, and ISO 14001:2015, no longer require preventive action. One reason could be that this prevents the confusion mentioned above; in addition, ISO has indicated that the complex process that was previously involved in PA is unnecessary, and there are other parts of the standard that, when used properly, can effectively provide good preventive actions. Now preventive action is replaced by other parts of the standard, including:
+
+    Risk-based thinking – This new requirement asks that you identify areas that could affect the management system, but where you are uncertain of the outcome. This way of thinking entails identifying this uncertainty, or risk, and determining if you need to take action to prevent bad outcomes or to capitalize on opportunities — essentially positive risk. In these newer standards, assessing top-level strategic risks and opportunities is part of the planning clause, clause 6.
+    Improvement – Any improvement activities taken to make the processes of your management system better are preventive actions. The focus of the new requirements is for each company to find effective ways to improve processes, rather than having the complicated preventive action system in place from previous versions of the standards. If you have something as simple as a suggestion program that identifies how to make processes better, and then implement those changes, this could be an action to prevent a problem.
+
+It should be noted that some other standards based on the ISO 9001 standard, including ISO 13485 and IATF 16949, still require preventive actions. In both of these standards, the preventive action process is still intended to be the systematic process to address identified potential issues, rather than the improvement activities mentioned above.
+
+You can learn more about how risk-based thinking is replacing preventive action in the ISO 9001:2015 standard in this article: Risk-based thinking replacing preventive action in ISO 9001:2015 – The benefits.
+
+You can also read more on how Annex SL works in the article: Is ISO 45001:2018 compliant with Annex SL?
+
+
+Preventive action process
+
+As mentioned, the preventive action process has been eliminated from most ISO standards; however, some quality management standards, such as IATF 16949 and ISO 13485, still require preventive actions. In general, the steps in the preventive action procedure include:
+
+1.    Identify and describe the potential problem.
+2.    Evaluate the potential risk and opportunity associated with the preventive action.
+3.    Identify and document the root cause of the potential problem.
+4.    Develop a preventive action plan to address the root cause and prevent the problem.
+5.    Implement the preventive action plan.
+6.    Follow up to ensure that the root cause was, in fact, eliminated.
+
+What is a preventive action plan?
+
+A preventive action plan needs to include all of the same things that a corrective action plan does, as outlined in the text below. If you are taking action to remove an identified risk, this should also be treated like a project, with the same adequate oversight and budgeting of resources.
+
+
+Corrective action process
+
+The systematic corrective action process is essentially the same in the newer ISO management system standards aligned with the ISO Annex SL format. Corrective actions are still about improving behavior or the performance of a process.
+
+1) Identify the process problem. First, make sure the problem is, in fact, a real problem, and not just a perceived problem. A good test is if you can write the problem with a requirement to compare, what is often called a “Should Be” and “Is” statement (e.g.: Parts should be nickel plated; parts were received painted black). If you can’t say what the outcome should be (or is expected to be), then you may not have identified a real problem.
+
+2) Identify how big the problem is. What is the scope of the problem? Is it just today’s product, or was yesterday’s product affected, too? Is it just this one product, or is it on more than one product? Make sure you know what the problem is — and, more importantly, what it is not. For example, if the problem only happens on Wednesdays, this may be important information.
+
+3) Take action to contain the problem. How can you stop the problem while you fix the root cause? Make a correction that stops the problem in the short term, while you look for the ultimate cause and fix that. Basically, what immediate checks or stopgap measures are you putting in place to make sure that you will definitely catch the problem again if it recurs while you are fixing it?
+
+4) Identify the root cause of the problem. How do you make sure you have found the underlying issue?  This is the trickiest part. There are many different ways to do this, from asking “Why” five times until you find the ultimate cause, to more difficult methods like a classic Ishikawa (or Fishbone) Diagram. Whole training courses have been dedicated to this topic, but suffice it to say that you want to try to identify the underlying problem, not just a surface problem. After this step, it is wise to make sure that your scope has not become bigger, making further containment actions necessary.
+
+Fishbone diagram.png
+
+5) Come up with a plan to fix the root cause. What do you need to change to eliminate the root cause? Here, depending on the problem, you will need to identify the cost and return on investment. How will it be funded (if it is a complicated and expensive fix), and who needs to approve the expense? Make sure the planned changes will not cause further problems. This is called a corrective action plan (we’ll go into further detail below).
+
+6) Put your plan in place. This is as simple as following through on your plan and making it happen. It could be as straightforward as implementing the preventive maintenance program already described, or buying and installing a new piece of equipment because the old one could no longer keep the accuracy you need.
+
+7) Check that your plan worked. Simply put, after you have made your updates, wait a suitable amount of time and make sure the problem doesn’t recur. If it does, you need to question if you got the actual root cause. This is the most important step, but also the step that most companies have trouble with. Often, people want to close out the paperwork quickly, or think the registrar requires closure early to demonstrate timeliness, but proper follow-up is essential.
+
+Many companies will have a corrective action form that follows this process, or a modified process, to capture the information and ensure that they do not forget any steps. Having a systematic process is important to find and fix the root of the problem for large, systemic issues within your organization.
+
+
+What is a corrective action plan?
+
+The corrective action plan is a set of actions designed to eliminate the problem at its source.
+
+Any time you have any nonconformity, you will be taking steps to correct it, but what you correct is the difference between a simple correction and a corrective action. With a correction, you will address the most obvious problem so that you can remove the nonconformity and make the process acceptable to continue while you look for the root cause.
+
+Conversely, once you have investigated the causes of the problem until you understand the root cause, and then taken actions to correct this root cause so that the problem cannot recur, you have taken a corrective action.
+
+Crrection vs. Corrective Action.png
+
+For instance, a correction, such as an additional inspection, may contain the process problem in the short term — but the corrective action will stop the problem from occurring again.
+
+
+What should a corrective action plan include?
+
+Some things to think about when preparing your corrective action plan include:
+
+-    Fully assessing the root cause – How can we be sure that there is not a further underlying cause to what has been identified?
+-    Assessing the risks and opportunities of the change –
+-    It has always been important to make sure that the changes you decide to make are not going to cause more problems. But, with the new version of the ISO standards, there is a requirement to address the risks and opportunities associated with a possible process change. For example, by making a process change to address a root cause, is there a risk that the output of the process will cause a problem further on in your business, or even at your customer’s site? If you have identified a good corrective action for one process, is there an opportunity for it to be put in place for other processes to prevent problems from occurring in the future?
+-    Identifying the steps needed – What steps are needed to eliminate the root cause from the process?
+    Assessing schedule & cost – What is the timeline of implementation? What are the costs and potential return on investment? Are there other alternatives that need to be assessed? Is this plan feasible?
+-    Plan for final assessment as you go – As you work through your plan, do you need to make changes? Assessing if the plan is working as you proceed can help to ensure that your final assessment for effectiveness will give authentic results.
+-    Plan for assessment of effectiveness – Before starting on the plan, how will we know the changes actually worked? Will a key performance indicator improve? Will we have to wait several months to ensure that the problem doesn’t come back (which would mean we didn’t address the root cause)?
+
+As you can see, the corrective action plan is essentially equivalent to any other project plan you would create in your organization. It is important to set expectations for how long the plan will take, what resources will be required, and when the corrective action will be complete. It is important to note that the ISO standards include a statement that the corrective actions taken should be appropriate to the significance of the effects presented by the nonconformities; so, it is not expected that you will spend an exceptional amount of time and money to address a small problem. Remember this when you assess the feasibility of the plan.
+
+
+How do you implement corrective action?
+
+Implementing corrective action is as simple as following the plan you have identified. Perform each step, ensure it is completed satisfactorily, and make sure that the changes have not introduced new risks that you need to address further. Once again, thinking of your corrective action plan as a project plan can help you to understand how implementation should proceed.
+
+For implementation of a complex plan, you may want to use a Gantt chart to organize all of the activities, who will be doing them, and by when. This type of tool can also indicate which activities can occur in parallel, and which need to wait until other actions have taken place. Even if you choose another method to track your implementation, it is important to ensure that actions are identified with resources, timelines, and level of completion.
+
+Corrective Action Gantt chart example.png
+
+
+Why is corrective action important?
+
+When dealing with a systemic problem, one that is not due to a one-time mistake, you can lose a lot of time and money by ignoring it. If people are performing unnecessary activities to continually fix problems that occur, or if you need to be constantly vigilant to catch problems that happen all the time before they go further, then you can save a lot of resources by taking the necessary actions to stop the problems from happening again. The corrective action process is part of the Quality Management System to save you time and money.
+
+It is important to note that one of the issues with the corrective action process is that it is difficult to use for small, non-systemic problems where a root cause cannot be found. For this reason, the new ISO 9001:2015 standard (and others related to it, such as ISO 14001:2015 and ISO 45001:2018) now requires a decision after you have corrected the problem.
+
+Once you have fixed the problem that was found, you must decide on the need to take action to eliminate the root cause of the nonconformity. If you determine this is not needed, such as for a one-time issue that shows no signs of recurrence, you can stop the corrective action process there. You will still want to follow up to ensure that the problem does not recur, and, if it does prove to be systemic, change your decision and take further action.
+
+Of course, it is important to remember that some other standards based on the ISO 9001 standard, including IATF 16949, have not made this change, and addressing the root cause is still required.
+
+
+When should a leader take corrective action?
+
+Corrective action is about doing more than just fixing a small problem; it is about addressing a systemic issue that needs elimination rather than a small error that simply needs correction. Leaders should review the following to look for potential systemic issues:
+
+    Key performance indicators (KPI) – Are there routine problems indicated by the performance indicators you have chosen? Do your KPIs show you that your processes are working properly?
+    Review of records – Do your records show regular problems that should be investigated, such as a cyclic delay that always happens on a certain day of the month?
+    Feedback from employees – If employees complain of issues they must continually resolve, do you need to investigate further?
+    Results of audits – Audits are used to point out where processes aren’t meeting planned requirements, and assessing these shortcomings could point out systemic problems. This includes internal audits and customer audits, as well as certification audits.
+
+
+How do you write a corrective action report?
+
+As with any other report in an organization, the corrective action report can take whatever form is adequate in your company. Larger companies, with many people in top management, may want formalized reports for big corrective actions — as they would for any project. These reports may include executive summaries, detailed outcomes, expenses incurred, and evidence for effective closure. Others may simply include a completed CAPA form as the report.
+
+There are some requirements for records to be kept in the ISO management system standards, and this should be included as part of your report, at a minimum. The ISO management system standards based on Annex SL, such as ISO 27001:2013, ISO 22301:2019, ISO 9001:2015, and ISO 14001:2015, require the following to be kept as CA records:
+
+1.    The nature of nonconformities you have taken corrective actions for
+2.    The actions taken in the corrective actions
+3.    The results of the corrective actions, which would include the effectiveness
+
+Remember that the process is there to help you to save resources by removing larger systemic problems from your organization, rather than being a burden to your company. Make sure you implement a CAPA system that will work for you, not one that is just there for show. Removing problems can be one of the best ways to make your organization better.
+
+Click here to enroll in Advisera’s free Internal Auditor Courses and start learning all you need to know to perform an ISO 27001, 9001, 14001, 45001, or 13485 internal audit.
+
+
+
+
+
+
+
