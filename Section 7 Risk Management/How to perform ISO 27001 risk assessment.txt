@@ -1,0 +1,49 @@
+How to perform ISO 27001 risk assessment
+
+Normally, doing the ISO 27001 risk assessment is a headache only when doing this for the first time – which means that risk assessment doesn’t have to be difficult once you know how it’s done.
+
+So, how can you prepare yourself to make this headache smaller?
+Do it alone or hire a consultant?
+
+Since risk assessment and treatment are quite time-consuming and complex, you can decide whether they will be managed by the project manager/chief information security officer alone, or with the help of some hired expert (e.g., a consultant). A consultant could be quite helpful for larger companies, not only to guide the coordinator through the whole process, but also to perform part of the process – e.g., a consultant could do the workshops and/or interviews, compile all the information, write reports, etc., whereas the coordinator should manage the whole process and coordinate people within the company.
+
+Larger companies will usually have project teams for the implementation of ISO 27001, so this same project team will take part in the risk assessment process – members of the project team could be the ones doing the interviews.
+
+Smaller companies do not need to have a consultant or a project team – yes, the project manager will have to get some education first, but with the appropriate documentation and/or tools, this process can be done without expert help.
+Should you use a tool for risk assessment?
+
+Tools can speed up the process of risk assessment and treatment because they should have built-in catalogs of assets, threats, and vulnerabilities; they should be able to compile results semi-automatically; and producing the reports should also be easy – all of which makes them a very good choice for larger companies.
+
+However, for smaller companies, the price of such tools could be an obstacle, though in my opinion an even bigger barrier is the fact that such tools are sometimes too complex for smaller companies. In other words, the time needed to learn to work with such a tool is usually much longer than it would take to handle dozens of Excel sheets. Not to mention that such tools usually require you to follow overly complex risk assessment methodology, which could be overkill for smaller companies.
+
+In other words, if you are a smaller company, choose the risk assessment tool carefully and make sure it is easy to use for smaller organizations.
+Options for gathering the information
+
+Risk assessment means that you have to get quite a lot of input from your employees – essentially, there are three ways to do it:
+
+    Perform risk assessment through interviews – this means that the coordinator will interview the responsible person(s) from each department, where he will explain the purpose of risk assessment first, and make sure that every decision of the responsible person about the level of risk (consequence and likelihood) makes sense and is not biased.
+    Perform workshops with responsible persons – in these workshops, the coordinator explains to all responsible persons the purpose of risk assessment, and through several real-life examples, shows how to identify risks and assess their level.
+    Send the sheets with detailed explanation – here you don’t help the responsible persons directly, but you send them risk assessment methodology or some other instructions on how to fill in the risk assessment sheets, and they do it themselves.
+
+The last option is probably the easiest from the perspective of the coordinator, but the problem is that the information gathered this way will be of low quality. If the risk assessment process is not very clear to you, be certain that it will be even less clear to other employees in your company, no matter how nice your written explanation is.
+
+Of course, performing interviews will probably yield better results; however, this option is often not feasible because it requires a large investment of the coordinator’s time. So performing workshops very often turns out to be the best solution.
+Who decides on the level of risk?
+
+The decision about the level of risk (consequence and likelihood) should always be left to those persons responsible for the activities – the coordinator will never know the assets, processes, and environment well enough to make such decisions, but the persons working there will certainly have a better idea.
+
+However, the coordinator has another important function during the risk assessment process – once he starts receiving the risk assessment results, he has to make sure they make sense and that the criteria between different departments are uniform. Even though the workshops have been performed, or an explanation was given during the interview to the responsible person, they will always tend to give much larger importance (meaning higher risks) to their own department – in such cases, the coordinator must question such assessment and ask this person to reconsider his or her decision.
+Don’t be a perfectionist
+
+Risk management in general, but especially risk assessment and risk analysis, may seem like a perfect opportunity to make things complicated – since the requirements of ISO 27001 are rather simplistic, you can add numerous elements in trying to make your approach more “scientific.”
+
+But you have to ask yourself one question: is your goal to create a perfect risk assessment that will need to be performed for several months or maybe years (because it is extremely hard to list all potential risks that there could be), or is your goal to finish this process in a reasonable timeframe, knowing that it won’t be 100% accurate?
+
+If you choose the latter approach, you will identify the main risks, and will get your people to start thinking about the necessity of protecting company information. And you will always have the opportunity to add the other risks later on, once you finish your initial implementation. This is what ISO 27001 requires from you anyway, as part of continual improvement.
+
+
+
+https://www.youtube.com/watch?v=s77k-pfmid8&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fadvisera.com%2F
+
+
+

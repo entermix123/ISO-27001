@@ -1,0 +1,38 @@
+How to write ISO 27001 risk assessment methodology
+
+Many companies make risk assessment and treatment too difficult by defining the wrong ISO 27001 risk assessment methodology and process (or by not defining the methodology at all).
+What does ISO 27001 really require?
+
+ISO 27001 requires you to document the whole process of risk assessment (clause 6.1.2), and this is usually done in the document called Risk Assessment Methodology. Unfortunately, this is where too many companies make the first big mistake: they start implementing the risk assessment without the methodology – in other words, without any clear rules on how to do it.
+
+There are many myths regarding what the risk assessment should look like, but in reality, ISO 27001:2022 requirements are not very difficult – here is what clause 6.1.2 requires:
+
+    Define how to identify the risks that could cause the loss of confidentiality, integrity, and/or availability of your information.
+    Define how to identify the risk owners.
+    Define the criteria for assessing consequences and assessing the likelihood of the risk.
+    Define how the risk will be calculated.
+    Define the criteria for accepting risks.
+
+So essentially, you need to define these five elements – anything less won’t be enough, but more importantly, anything more is not needed, which means: don’t complicate things too much.
+
+And yes – you need to ensure that the risk assessment results are consistent – that is, you have to define such methodology that will produce comparable results in all the departments of your company.
+Which options are available?
+
+Of course, there are many options available for the above five elements – here is what you can choose from:
+
+Risk identification. The current 2022 revision of ISO 27001 does not prescribe a methodology for risk identification, which means you can identify risks based on your processes, based on your departments, using only threats and not vulnerabilities, or any other methodology you like; however, my personal preference is still the good old assets-threats-vulnerabilities method defined in the 2005 revision of the standard. (See also the article Catalogue of threats & vulnerabilities.)
+
+Risk owners. Basically, you should choose a person who is both interested in resolving a risk, and positioned highly enough in the organization to do something about it. See also this article: Risk owners vs. asset owners in ISO 27001.
+
+Assessing consequences and likelihood. You should assess separately the consequences and likelihood for each of your risks; you are completely free to use whichever scales you like – e.g., Low-Medium-High, or 1 to 5, or 1 to 10 – whatever suits you best. Of course, if you want to make it simple, go for Low-Medium-High.
+
+Method of risk calculation. This is usually done through addition (e.g., 2 + 5 = 7) or through multiplication (e.g., 2 x 5 = 10). If you use the Low-Medium-High scale, then this is the same as using the 1-2-3 scale, so you still have numbers for calculation.
+
+Criteria for accepting risks. If your method of risk calculation produces values from 2 to 10, then you can decide that an acceptable level of risk is, e.g., 7 – this would mean that only the risks valued at 8, 9, and 10 need treatment. Alternatively, you can examine each individual risk and decide which should be treated or not based on your insight and experience, using no pre-defined values. This article will also help you: Why is residual risk so important? 
+
+In the section “Risk assessment,” you’ll find details on how to perform the risk assessment.
+Methodology first, everything else afterwards
+
+So, the point is this: you shouldn’t start assessing the risks using some sheet you downloaded somewhere from the Internet – this sheet might be using a methodology that is completely inappropriate for your company. You shouldn’t start using the methodology prescribed by the risk assessment tool you purchased; instead, you should choose the risk assessment tool that fits your methodology. (Or you may decide you don’t need a tool at all, and that you can do it using simple Excel sheets.)
+
+In any case, you should not start assessing the risks before you adapt the methodology to your specific circumstances and to your needs.

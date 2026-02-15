@@ -1,0 +1,98 @@
+Main steps in ISO 27001 risk assessment and treatment:
+
+1.    Risk management methodology
+2.    Risk assessment
+3.    Risk treatment
+4.    Risk assessment and treatment report
+5.    Statement of Applicability
+6.    Risk treatment plan
+
+
+
+1) ISO 27001 risk assessment methodology
+
+This is the first step on your voyage through risk management in ISO 27001. You need to define the rules for how you are going to perform the risk management, because you want your whole organization to do it the same way – the biggest problem with risk assessment happens if different parts of the organization perform it in different ways. Therefore, you need to define whether you want qualitative or quantitative risk assessment, which scales you will use for qualitative assessment, what the acceptable level of risk will be, etc.
+
+
+
+2) Risk assessment implementation
+
+Once you know the rules, you can start finding out which potential problems could happen to you – you need to list all your assets, then threats and vulnerabilities related to those assets, assess the impact and likelihood for each combination of assets/threats/vulnerabilities, and finally calculate the level of risk.
+
+In my experience, companies are usually aware of only 30% of their risks. Therefore, you’ll probably find this kind of exercise quite revealing – when you are finished, you’ll start to appreciate the effort you’ve made.
+
+
+3) Risk treatment implementation
+
+Of course, not all risks are created equal – you have to focus on the most important ones, the so-called “unacceptable risks.”
+
+When implementing the risk treatment in ISO 27001, there are four options you can choose from to handle (i.e., mitigate) each unacceptable risk, as explained further in this article.
+
+
+
+4) Risk Assessment and Treatment Report
+
+Unlike previous steps, this one is quite boring – you need to document everything you’ve done so far. This is not only for the auditors, as you may want to check these results for yourself in a year or two.
+
+
+
+5) Statement of Applicability
+
+This document actually shows the security profile of your company – based on the results of the risk treatment in ISO 27001, you need to list all the controls you have implemented, why you have implemented them, and how. This document is also very important because the certification auditor will use it as the main guideline for the audit.
+
+For details about this document, see this article: Statement of Applicability in ISO 27001 – What is it and why does it matter?
+https://advisera.com/27001academy/knowledgebase/the-importance-of-statement-of-applicability-for-iso-27001/
+
+Article:
+--------
+Now why is such a document necessary when you already produced the Risk Assessment Report (which is also mandatory), and which also defines the necessary controls? Here are the reasons:
+
+1.    First of all, during risk treatment you identify the controls that are necessary because you identified risks that need to be decreased; however, in SoA you also identify the controls that are required because of other reasons – i.e., because of the law, contractual requirements, because of other processes, etc.
+2.    Second, the ISO 27001 Statement of Applicability justifies the inclusion and exclusion of controls from Annex A, and the inclusion of controls from another source.
+3.    Third, the Risk Assessment Report could be quite lengthy – some organizations might identify a few thousand risks (sometimes even more), so such a document is not really useful for everyday operational use; on the other hand, the Statement of Applicability is rather short – it has a row for each control (controls from Annex A, plus the added ones), which makes it possible to present it to management and to keep it up-to-date.
+4.    Fourth, and most important, SoA documents the implementation status of proposed controls. Good practice (and most auditors will be looking for this) is also to describe how each applicable control is implemented – e.g., either by making a reference to a document (policy/procedure/working instruction etc.), or by shortly describing the procedure in use, or equipment that is used.
+
+
+What are the mandatory elements of the SoA?
+
+According to the standard, these are the requirements from clause 6.1.3 d) to be fulfilled by a Statement of Applicability document:
+
+1.    definition of which controls (security measures) will be applied, covering the suggested controls from ISO 27001 Annex A and potentially those from other sources
+2.    justification for inclusion of controls that are applicable
+3.    the implementation status of applicable controls (i.e., if they are implemented or not)
+4.    justification for the exclusion of controls from Annex A that are not applicable
+
+https://www.youtube.com/watch?v=lYHubTmQi2k
+
+Please note that Annex A is considered to be comprehensive, but not exhaustive for all situations. That’s why organizations can also consider other sources for the controls (e.g., NIST special publications, ENISA guidelines, etc.).
+
+
+The SoA document has a central role during the audit
+
+Actually, if you go for the ISO 27001 certification, the certification auditor will take your Statement of Applicability and walk around your company checking out whether you have implemented your controls in the way you described them in your SoA. It is the central document for doing their on-site audit.
+
+A very small number of companies realize that by writing a good ISO 27001 Statement of Applicability you could decrease the number of other documents – for instance, if you want to document a certain control, but if the description of the procedure for that control would be rather short, you can describe it in the SoA documents. Therefore, you would avoid writing another document.
+
+
+Statement of Applicability – Why it is useful
+
+In my experience, most companies implementing the information security management system according to ISO 27001 spend much more time writing this document than they anticipated. The reason for this is they have to think about how they will implement their controls: Are they going to buy new equipment? Or change the procedure? Or hire a new employee? These are quite important (and sometimes expensive) decisions, so it is not surprising that it takes quite a lot of time to reach them. The good thing about SoA is that it forces organizations to do this job in a systematic way.
+
+Therefore, you shouldn’t consider this document as just one of those “overhead documents” that have no use in real life – think of it as the main statement where you define what you want to do with your information security. Written properly, SoA is a perfect overview (list, justification and description) of what needs to be done in information security, why it has to be done, and how it is done.
+
+
+
+6) Risk Treatment Plan
+
+This is the step where you have to move from theory to practice. Let’s be frank – up to now, this whole risk management job was purely theoretical, but now it’s time to show some concrete results.
+
+This is the purpose of the Risk Treatment Plan – to define exactly who is going to implement each control, in which timeframe, with what budget, etc. I would prefer to call this document an “Implementation Plan” or “Action Plan,” but let’s stick to the terminology used in ISO 27001.
+
+And this is it – you’ve started your journey from not knowing how to set up your information security all the way to having a very clear picture of what you need to implement. The point is – ISO 27001 forces you to make this journey in a systematic way.
+
+https://www.youtube.com/watch?v=DKzijPaHS-Q&embeds_referring_euri=https%3A%2F%2Fadvisera.com%2F&source_ve_path=MjM4NTE
+
+
+
+
+
