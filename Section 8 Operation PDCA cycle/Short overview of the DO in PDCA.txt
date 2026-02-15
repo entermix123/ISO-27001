@@ -1,0 +1,705 @@
+The Do phase includes implementing ISMS requirements, various ISMS processes, plans for achieving information security objectives, and information security controls according to the risk treatment plan. It also covers managing changes and outsourced processes. This phase is important because it describes the longest phase of the PDCA cycle, i.e., the implementation of actual safeguards, and day-to-day operations of the Information Security Management System.
+
+Here are a few materials that will help you better prepare for this module:
+
+Compulsory reading:
+
+1.    article: Seven steps for implementing policies and procedures
+2.    article: 8 criteria to decide which ISO 27001 policies and procedures to write
+3.    article: How detailed should the ISO 27001 documents be?
+4.    Additional Article: ISO 27001 implementation checklist
+
+
+Article 1 : Seven steps for implementing policies and procedures
+================================================================
+
+1. Study the requirements
+
+First you have to study very carefully various requirements – is there a legislation which requires something to be put in writing? Or maybe a contract with your client? Or some other high level policy that already exists in your organization (perhaps a corporate standard)? And of course the requirements from ISO 27001 or BS 25999-2 if you want to comply to those standards.
+
+
+2. Take into account the results of your risk assessment
+
+Your risk assessment will determine which issues you have to address in your document, but also to which degree – for instance, you may need to decide whether you will classify your information according to its confidentiality, and if so, whether you need two, three or four levels of confidentiality - 4 step process for classifying information.png
+
+4 step process start:
+---------------------
+
+Step 1: Entering the asset in the inventory (asset register)
+
+The point of entering the asset in the inventory is that you know which information you have in your possession, and who is responsible for it (i.e., who is the owner).
+
+Information can be in different forms and types of media, e.g.:
+
+    electronic documents
+    information systems / databases
+    paper documents
+    storage media (e.g., disks, memory cards, etc.)
+    information transmitted verbally
+    email
+
+
+Step 2: Classification of information
+
+The purpose of classifying information is to categorize it based on its level of sensitivity and its importance to the organization. Normally, the higher the classification level, the more important the information is.
+
+This helps organizations to understand the importance of each type of information for them, and to prioritize information protection efforts (information with higher classification levels would require more resources for its protection), increasing information security and regulatory compliance.
+
+The most common attribute used for information classification is confidentiality, although you can also find classifications based on integrity and availability.
+
+Who is responsible for classifying information?
+
+In most cases, the asset owner is responsible for the confidentiality classification of the information, and this is usually done based on the results of the risk assessment: The higher the value of the information (i.e., the higher the consequence of breaching confidentiality), the higher the classification level should be. (See also ISO 27001 Risk Assessment, Treatment, & Management: The Complete Guide.)
+Defining confidentiality levels
+
+ISO 27001 does not prescribe document classification levels or information classification levels (i.e., there are no ISO 27001 information classification or ISO 27001 data classification schemes, or other classification standards) — this is something you should develop on your own, based on what is common in your country or in your industry.
+Examples of information classification levels
+
+The bigger and more complex your organization is, the more levels of confidentiality you will have — for example, for a mid-size organization you may use these kinds of information classification levels with three confidential levels and one public level:
+
+    Confidential (top confidentiality level)
+    Restricted (medium confidentiality level)
+    Internal use (lowest level of confidentiality)
+    Public (everyone can see the information)
+
+Very often, a company may have two different classification schemes in place if it works both with the government and in the private sector. For example, NATO requires the following classification with four confidential levels and two public levels:
+
+    Cosmic Top Secret
+    NATO Secret
+    NATO Confidential
+    NATO Restricted
+    NATO Unclassified (copyright)
+    NON SENSITIVE INFORMATION RELEASABLE TO THE PUBLIC
+
+However, is important to note that in very specific situations, where information importance is homogeneous, organizations can adopt a single classification level. It is perfectly acceptable by the standard to use single or multiple confidentiality levels as the ISO 27001 information classification/ISO 27001 data classification structure.
+
+
+Step 3: Information labeling
+
+Once you classify the information, then you need to label it appropriately — you should develop the guidelines for each type of information asset on how it needs to be classified — again, ISO 27001 is not prescriptive here, so you can develop your own rules.
+
+For example, you could set the rules for paper documents such that the confidentiality level is to be indicated in the top right corner of each document page, and that it is also to be indicated on the front of the cover or envelope carrying such a document, as well as on the filing folder in which the document is stored.
+
+Labeling of information is usually the responsibility of the asset owner.
+
+
+Step 4: Information handling
+
+This is usually the most complex part of the classification process — you should develop rules on how to protect each type of asset depending on the level of confidentiality. For example, you could use a table in which you must define the rules for each level of confidentiality for each type of media, e.g.:
+
+ 	Internal use 			Restricted 			Confidential
+--------------------------------------------------------------------------------------
+	Electronic documents 			
+	Information systems 			
+	Paper documents 			
+	Storage media 			
+	Verbally transmitted information 			
+	Email 			
+--------------------------------------------------------------------------------------
+
+
+So in this table, you can define that paper documents classified as Restricted should be locked in a cabinet, documents may be transferred within and outside the organization only in a closed envelope, and if sent outside the organization, the document must be mailed with a return receipt service.
+
+As before, ISO 27001 allows you the freedom to set your own rules, and this is usually defined via the Information Classification Policy, or the classification procedures. To read an article about how information classification can be applied in a specific law firm scenario, click here.
+
+So, as you can see, the 4-step classification of documents might be complex, but it does not have to be incomprehensible – ISO 27001 actually allows you great freedom, and you should definitely take advantage of it: make the classification process both adapted to your special needs, but at the same time secure enough so that you can be sure your sensitive information is protected.
+
+4 step process end
+------------------
+
+This step may not be relevant in this form if your policy or procedure is not related to information security or business continuity. However, risk management principles are applicable to other areas as well – quality management (ISO 9001), environmental management (ISO 14001), etc. For instance, in ISO 9001 you have to determine to which extent a process is crucial for your quality management and accordingly to decide whether you will document it or not.
+
+
+
+
+3. Optimize and align your document(s)
+
+An important thing to consider is the total number of documents – are you going to write ten 1-page documents or one 10-page document? It is much easier to manage one document, especially if the target group of readers is the same. (Just don’t create a single 100-page document.)
+
+Moreover, you have to be careful to align your document with other documents – the issues you are defining may be already partially defined in another document. In such case, it may not be necessary to write a new document, maybe only expand the existing one.
+
+If you are writing a new document about an issue that is already mentioned in another document, be sure to avoid redundancy – to describe the same issue in both documents. Later it would become a nightmare to maintain those documents; it’s much better that one document makes a reference to another, without repeating the same stuff.
+
+
+
+
+4. Structure your document
+
+You also need to take care that you observe your corporate rules for formatting the document – you already may have a template with pre-defined fonts, headers, footers etc.
+
+If you already implemented ISO 27001 or BS 25999-2 (or any other management standard), you’ll need to observe a procedure for document control – such a procedure defines not only the format of the document, but also the rules for its approval, distribution etc.
+
+
+How must documents be managed according to ISO 27001 and ISO 22301?
+
+Requirements for a document management system compliant with ISO 27001 and ISO 22301 are almost the same. Here is what these two standards require for the control of documents:
+
+1.    Distribution, access, retrieval, and use – basically, you need to define who has the right to access the documents (e.g., by job title) and to perform which actions (e.g., edit, read only, etc.).
+2.    Storage and preservation – where the documents will be available and then archived (e.g., which computer, which facility), how they will be protected from unauthorized access (e.g., access control, encryption), and how to preserve their legibility to ensure the information is readable even if media become obsolete (such as old VHS video tapes).
+3.    Control of changes – if you edit a specific document (e.g., a procedure), you need to assign a new version identification (e.g., number) each time.
+4.    Retention and disposition – how long will a particular obsolete document be kept (e.g., 5 years), and how will you destroy such a document? (e.g., overwriting digital documents, or destroying paper documents in a shredder, etc.).
+
+
+How to implement document management in your company
+
+Although the standards do not prescribe a written procedure for document management, you should consider writing one.
+
+The reason is that, to make sure everyone understands how to perform document management, and to avoid your documentation becoming a mess, it is better to write a procedure that explains everything in detail.
+
+Additionally, if only one person is responsible for document control, or if it is performed rather rarely, you’ll be able to continue if this person becomes unavailable, or if people forget how it is done.
+
+Steps you should consider when developing this procedure are:
+
+    define the responsibilities for document management;
+    evaluate your business processes to identify how documents are currently received, processed, approved/rejected, stored, and deleted;
+    adjust business processes according to the standard’s requirements for document management;
+    identify documentation that needs to be controlled;
+    write the document control management procedure.
+
+The point of document management
+
+When you start implementing an Information Security Management System, or a Business Continuity Management System, you start seeing the importance of writing things down, and the value that controlling that information can bring to your organization. Documents are, in fact, the lifeblood of your management system – take good care of them if you want your system to remain healthy.
+
+
+
+
+
+
+5. Write your document
+
+The rule of the thumb is – the smaller the organization and the smaller the risks, the less complex your document will be. There is nothing more useless than deciding to write a lengthy document no one is going to read – you have to understand that reading the document takes time, and the level of one’s attention is inversely proportional to the number of lines in your document.
+
+One good technique to overcome the resistance of other employees to this document (no one likes change, especially if that means something like an obligation to change passwords on a regular basis) is to involve them in writing or commenting this document – this way they will understand why it is necessary.
+
+
+
+
+6. Get your document approved
+
+This step is rather self-evident, but its underlying importance is this – if you are not a high ranking manager in your company, you won’t have the power to enforce this document.
+
+This is why someone with such a position has to understand it, approve it, and actively require its implementation. Sounds easy, but believe me – it is not. This step (and the next one) are the ones where implementation most often fails.
+
+
+
+
+7. Training and awareness of your employees
+
+This step is probably the most important, but sadly it is one that is very often forgotten. As mentioned before, employees are tired of constant changes, and they surely won’t welcome another one especially if it means more work for them.
+
+Therefore, it is very important to explain to your employees why such a policy or procedure is necessary – why it is good not only for the company, but also for themselves.
+
+Sometimes training will be necessary – it would be wrong to assume that everyone possesses the skills to implement new activities. For you, who wrote this document, it may seem easy and self-evident, but for them it may seem like brain surgery.
+
+
+
+End of story?
+
+If you thought you’ve reached the end of your document-implementation story, you’re wrong – the journey has just begun. It is not enough to have a perfect policy or procedure that everyone just loves, you also need to maintain it.
+
+Someone has to take care this document is up-to-date and improved, or else no one is going to observe it anymore – and that someone is usually the same person who has written it. Not only that, someone has to measure if such a document has fulfilled its purpose – again, it may be you.
+
+As you may have noticed reading this article, it is not enough to have a nice template for a successful policy or procedure – what is needed is a systematic approach to its implementation. And in doing so do not forget the most important fact: the document is not an end in itself – it is only a tool to enable your activities and processes to run smoothly. Don’t let the opposite happen – that such a document makes these activities and processes run with more difficulty.
+
+
+
+
+
+Article 2: 8 criteria to decide which ISO 27001 policies and procedures to write
+================================================================================
+
+Criteria for deciding what to document
+
+Well, the first step is easy – you need to check whether a document is required by ISO 27001. For that purpose, see this article: List of mandatory documents required by ISO 27001 (2013 revision). If the document is mandatory, you have nothing to think about – you must write it if you want to be compliant with this standard. (See also: Seven steps for implementing policies and procedures.)
+
+However, if the document is not mandatory, you may find yourself puzzled over whether you need to write it or not – for example, would you need a Backup Policy? Or perhaps a Classification Policy? Or a BYOD Policy?
+
+
+1. Risks
+--------
+You have to start by assessing the risks to see if there is a need for such a control at all (see also: The basic logic of ISO 27001: How does information security work?). If there is no risk, then certainly you won’t need a document for it; if there is a risk, this still doesn’t mean you have to write a document, but at least you have resolved the dilemma of whether the control is needed or not.
+
+2. Compliance
+-------------
+Sometimes you may have a regulation or a contractual requirement to write a certain document – e.g., a regulation may require you to write the Classification Policy, or your client may require you to sign NDAs with your employees.
+
+Size of your company
+--------------------
+Smaller companies will tend to have fewer documents, so in such a case you should try to avoid writing a procedure for every small process – for example, if you have 20 employees you don’t need 50 documents for your ISMS. Of course, if you are a multinational organization with 10,000 employees, writing policies where each would have a couple of related procedures, and then for every procedure a couple of working instructions – this approach does make sense.
+
+Importance
+----------
+The more important a process or activity is, the more likely you will want to write a policy or a procedure to describe it – this is because you’ll want to make sure everyone understands how to perform such a process or activity in order to avoid breakdowns in your operations.
+
+Number of people involved
+-------------------------
+The more people perform a process or an activity, the more likely you will want to document it; for example, if you have 100 people involved, it will be very difficult to explain verbally to all these people how to perform certain process – it is much easier to write a procedure that would explain everything in detail. On the other hand, if you have five people involved, you can probably explain how the whole process works in a single meeting, so there is no need for a written procedure. There is one exception, though: if you have only one person working on a process, you might want to document it because no one else knows how to do it – so if this person becomes unavailable, you’ll be able to continue your operations.
+
+Complexity
+----------
+The more complex the process, the more likely it is that you’ll need a written document for it (at least in the form of a checklist) – it is simply impossible to remember by heart, e.g., 100 steps that need to be performed in the exact sequence.
+
+Maturity
+--------
+If a process or an activity is clearly established, if it has been running for years and everyone knows exactly how to perform it, if it is finely tuned, then there is probably no need to document it.
+
+Frequency
+---------
+If you perform some activities rather rarely, you might want to write them down because you might forget how they are done.
+
+
+Find the right balance
+
+The more documents you have and the more detailed they are, the more difficult it will be to maintain them and to make your employees observe them. On the other hand, a smaller number of documents that are also quite short might not describe exactly what you need to do.
+
+In most cases, I recommend my clients not to become too ambitious – if there is no absolute need to create some new document, don’t do it; if there is no need to describe some process in great detail, make it shorter.
+
+And remember – unnecessary documents will bring you nothing but trouble.
+
+
+
+
+Article 3: How detailed should the ISO 27001 documents be? 
+==========================================================
+
+When starting to write a policy or a procedure, you’re probably puzzled as to how lengthy it should be. And the truth is, ISO 27001 (as well as other ISO standards like ISO 20000, ISO 9001, ISO 14001 and others) are very flexible in this respect. They basically allow you the freedom to decide for yourself what level of detail you are going to write in your documents.
+
+
+Criteria for deciding on the level of detail
+
+So, before you start writing your documentation, you should go through these criteria to decide how detailed your policies and procedures should be:
+
+Level of complexity
+-------------------
+The more complex the process or activity is, the more details you will have to write. Of course, if your process has 5 very simple steps you will write your whole procedure in a single page, but if the process has 100 steps – some of which are really difficult – you may come up with a document that is a few dozen pages long.
+
+Maturity
+--------
+If a process or activity is complex, but practice has proved there are few problems with it because employees have been performing it the same way for years and know exactly how it is done, you don’t have to write a very lengthy document.
+
+How often they are performed
+----------------------------
+If the process or activity is performed rarely, then you will probably have to explain it in more detail – this is because your employees will tend to forget how the process or activity is done; if it is performed very regularly, the document will be much shorter.
+
+Importance/risks
+----------------
+The more important the activity or process is, the more detailed the documents tend to be, because you’ll want to make sure everyone understands exactly how to perform it. For example, if you have many risks that are related to information systems access control, you should describe those rules in more detail; on the other hand, if your physical security is not really an issue, you will describe it only generally (or avoid writing a document at all).
+
+Compliance
+----------
+In some cases, you will have auditors coming to your company from regulatory bodies and/or from your important clients – if they expect to see a very detailed, e.g., BYOD policy, then make your life easier and give them that nice-looking, detailed policy.
+
+The decision on how many documents you want to have and how detailed they should be is a strategic one – you should make such a decision even before starting your ISO 27001 project. See also: 8 criteria to decide which ISO 27001 policies and procedures to write.
+
+Once you start writing the documents, use this article: Seven steps for implementing policies and procedures.
+
+Problems with complex documentation
+
+Many information security professionals fall into the trap of thinking “we’ll describe all the security rules in detail → everyone will know exactly what to do → we will have higher level of security,” but it doesn’t work this way. Complex documents require a lot of effort to maintain, and even worse: employees dislike reading lengthy policies and procedures.
+
+So remember, the fewer documents you have and the less complex they are, the greater the chances your employees will comply with them. Therefore, don’t get too ambitious when writing your documents; but do get ambitious in asking the security rules to be implemented.
+
+
+
+
+4. Additional Article: ISO 27001 implementation checklist
+=========================================================
+
+ISO 27001 checklist: 16 steps for the implementation
+
+If you are starting to implement ISO 27001:2022, you are probably looking for an easy way to implement this standard. I’ll try to make your job easier – here is a list of 16 steps summarizing how to implement ISO 27001. From getting buy-in from top management, to going through activities for implementation, monitoring, and improvement, in this ISO 27001 checklist you have the main steps your organization needs to go through if you want to achieve ISO 27001 certification.
+
+
+Each ISO 27001 implementation needs to start with the following steps:
+
+    Obtaining management support
+    Setting up project management
+    Defining the ISMS scope
+    Writing a top-level Information Security Policy
+    Defining the risk assessment methodology
+    Performing risk assessment and risk treatment
+
+
+
+1) Obtain management support
+
+This one may seem rather obvious, and it is usually not taken seriously enough. But in my experience, this is the main reason why ISO 27001 certification projects fail – management is either not providing enough people to work on the project, or not enough money.
+
+In the sections below you’ll find some tips on how to convince your management, and how much the implementation costs.
+
+
+2) Treat it as a project
+
+As I already said, the implementation of an Information Security Management System (ISMS) based on ISO 27001 is a complex undertaking involving various activities and lots of people, lasting from a couple of months (for smaller companies) all the way to more than a year (for large corporations).
+
+If you do not clearly define what is to be done, who is going to do it, and in what time frame (i.e., apply project management), you might as well never finish the job.
+
+
+3) Define the scope
+
+If you are a larger organization, it probably makes sense to implement ISO 27001 only in one part of your organization, thereby significantly lowering your project risk; however, if your company is smaller than 50 employees, it will probably be easier for you to include your whole company in the scope.
+
+Learn more about defining the scope in the article How to define the ISMS scope.
+
+
+4) Write an Information Security Policy
+
+The Information Security Policy (or ISMS Policy) is the highest-level internal document in your ISMS – it shouldn’t be very detailed, but it should define some basic requirements for information security in your organization.
+
+But what is its purpose if it is not detailed? The purpose is for management to define what it wants to achieve, and how to control it. (Learn more in the article What is the ISO 27001 Information Security Policy, and how can you write it yourself?)
+
+
+5) Define the risk assessment methodology
+
+Risk assessment is the most complex task in the ISO 27001 project – the purpose of the methodology is to define the rules for identifying the risks, impacts, and likelihood, and to define the acceptable level of risk.
+
+If those rules were not clearly defined, you might find yourself in a situation where you get unusable results. (For more, read the article ISO 27001 Risk Assessment, Treatment, & Management: The Complete Guide).
+
+https://www.youtube.com/watch?v=JyrvFaR4Kag&embeds_referring_euri=https%3A%2F%2Fadvisera.com%2F&source_ve_path=MjM4NTE
+
+
+6) Perform the risk assessment & risk treatment
+
+Here you have to implement the risk assessment you defined in the previous step – it might take a couple of days for a small company, and up to several months for larger organizations, so you should coordinate such an effort with great care. The point is to get a comprehensive picture of the internal and external dangers to your organization’s data.
+
+The purpose of the risk treatment process is to decrease the risks that are not acceptable – this is usually done by planning to use the controls from Annex A. During this step, a Risk Assessment Report has to be written, which documents all the steps taken during the risk assessment and risk treatment process. Also, an approval of residual risks must be obtained.
+
+Learn more about the details of risk assessment and treatment in the article ISO 27001 Risk Assessment, Treatment, & Management: The Complete Guide.
+
+
+7) Write the Statement of Applicability
+
+Once you have completed your risk assessment and treatment process, you will know exactly which controls from ISO 27001 Annex A you need. The purpose of this document (frequently referred to as the Statement of Applicability, or SoA) is to list all controls and to define which are applicable and which are not, the reasons for such a decision, and a description of how they are implemented in the organization.
+
+The Statement of Applicability is also the most suitable document to obtain management authorization for the implementation of the ISMS. (Read the article Statement of Applicability in ISO 27001 – What is it and why does it matter? to learn more).
+
+
+8) Write the Risk Treatment Plan
+
+Just when you thought you had resolved all of the risk-related documents, here comes another one – the purpose of the Risk Treatment Plan is to define exactly how the controls from the SoA are to be implemented – who is going to do it, when, with what budget, etc.
+
+This document is actually an implementation plan focused on your controls, without which you wouldn’t be able to coordinate further steps in the project.
+
+
+9) Define how to measure the effectiveness of controls
+
+This is another task that is usually underestimated in a management system. The point here is – if you can’t measure what you’ve done, how can you be sure you have fulfilled the purpose?
+
+Therefore, be sure to define how you are going to measure the fulfillment of objectives you have set both for the whole ISMS, and for security processes and/or controls. (Read more in the article ISO 27001 control objectives – Why are they important?)
+
+
+10) Implement the security controls
+
+This might be easier said than done. This is where you have to implement all documents and technology, and consequently change the security processes in your company. For more about ISO 27001-required documents and records, read the article List of mandatory documents required by ISO 27001. For more about Annex A, read the article How to structure the documents for ISO 27001 Annex A controls.
+
+This is usually the most difficult task in your project because it means enforcing new behavior in your organization. Often, new policies and procedures are needed (meaning that change is needed), and people usually resist change – this is why the next task (training and awareness) is crucial for avoiding that risk.
+
+
+11) Implement training and awareness programs
+
+If you want your personnel to implement all of the new policies and procedures, first you have to explain to them why they are necessary, and train your people to be able to perform as expected.
+
+The absence of training and awareness is the second most common reason for ISO 27001 project failure. (For more about training and awareness, read the article How to perform training & awareness for ISO 27001 and ISO 22301).
+
+
+12) Operate the ISMS
+
+This is the part where ISO 27001 becomes an everyday routine in your organization. The crucial word here is: “records.” ISO 27001 certification auditors love records (including logs) – without records, you will find it very hard to prove that an activity has really been done.
+
+But records should help you in the first place – by using them, you can monitor what is happening; you will actually know with certainty whether your employees (and suppliers) are performing their tasks as required. (Read more in the article Records management in ISO 27001 and ISO 22301).
+
+
+13) Monitor and measure the ISMS
+
+What is happening in your ISMS? How many incidents do you have, and of what type? Are all the procedures carried out properly?
+
+This is where the objectives for your controls and your measurement methodology come together – you have to check whether the results you obtain are achieving what you have set in your objectives. If not, you know something is wrong – you have to perform corrective and/or preventive actions. (Learn more in the article How to perform monitoring and measurement in ISO 27001).
+
+
+14) Internal audit
+
+Very often, people are not aware that they are doing something wrong (on the other hand, they sometimes are, but they don’t want anyone to find out about it). But being unaware of existing or potential problems can hurt your organization – you have to perform an internal audit in order to find out such things.
+
+The point here is not to initiate disciplinary actions, but to take corrective actions so that such problems do not happen again. (Read the article How to prepare for an ISO 27001 internal audit for more details).
+
+
+15) Management review
+
+The top management of your company does not have to configure your firewall, but they must know what is going on in the ISMS, i.e., if everyone performed their duties, and if the ISMS is achieving the desired results, fulfilling the defined requirements, etc.
+
+Based on that, the management must make some crucial decisions like approving the security budget, aligning security with business strategy, etc. (Learn more in the article Why is management review important for ISO 27001 and ISO 22301?)
+
+
+16) Corrective actions
+
+The purpose of the management system is to ensure that everything that is wrong (so-called “non-conformities”) is corrected, or hopefully prevented. Therefore, ISO 27001:2022 requires that corrective actions be done systematically, which means that the root cause of a non-conformity must be identified, and then resolved and verified. (Read the article Complete guide to corrective action vs. preventive action).
+
+Hopefully, this ISO 27001 checklist has clarified what needs to be done – although ISO 27001 is not an easy task, it is not necessarily too complicated. You just have to plan each step carefully, and don’t worry – you’ll get the ISO 27001 certification for your organization.
+
+
+
+ISO 27001 Implementation Steps.png
+
+
+Time, effort, and roles needed to implement ISO 27001
+
+How long will it take? This is probably the second most common question I hear about ISO 27001 (the first one is “How much does it cost?”). Well, the answer is not really encouraging – most of the people I speak to expect it to be a couple of weeks. But this is not realistic – the reality is a couple of months for smaller companies all the way to more than a year for larger organizations.
+
+Of course, you can always produce dozens of documents in a matter of days claiming you are compliant with ISO 27001, but this is not what I’m writing about here. I’m writing about the implementation that is meaningful, i.e., that produces results – a lower number of incidents, higher efficiency, cost savings, etc.
+Time needed for the initial implementation
+
+Your main implementation effort will be spent on the so called “Plan” and “Do” phases of ISO 27001, i.e., the first two mandatory phases in which the risk assessment is being done and in which all the safeguards (security controls) are being implemented.
+
+The duration of implementation for these two phases depends primarily on the size of the organization:
+
+    Companies of up to 20 employees – up to 3 months
+    20 to 50 employees – 3 to 5 months
+    50 to 200 employees – 5 to 8 months
+    More than 200 employees – 8 to 20 months
+
+These times are valid if you use a consultant or an online tool to help you with the implementation; if you’re trying to do this by yourself without any help, it will take you much longer.
+
+Also, what can considerably extend your implementation time is if your company does not have support from the top management or does not have an experienced project manager.
+Roles in the implementation project
+
+In smaller companies, the person who runs the project (i.e., who acts as a project manager) will also perform the role of the security officer, whereas larger companies will have these two roles separated – a professional project manager will run the project, and another person acting as a security officer will be responsible for overall security and will participate in the project.
+
+ISO 27001 does not require that you establish a project team, but this will be helpful for companies of 200 or more employees; for smaller companies it will be enough to have only a project manager who will coordinate the project with other colleagues.
+
+In larger companies it would be best if you include heads of various departments in the project team – e.g., head of IT department, head of legal, head of HR, head of marketing & sales, head of operations, etc. This way you can ensure that all major security decisions are made at a high enough level, and that there is enough commitment for their implementation.
+
+In any size company, you’ll need to include part of your employees in the following activities:
+
+    Risk assessment – finding out what can go wrong with your information
+    Risk treatment – finding out which mitigation options to use to decrease risks
+    Reviewing policies and procedures – to make sure security documents are aligned with existing business processes
+    Approval of security objectives, documentation, and required resources – to ensure commitment and alignment with company strategy
+
+For the first three bullets, you can use department heads for these activities, whereas the last bullet needs to be performed by the top management – e.g., the CEO in a smaller company, or the CIO or CTO in larger companies.
+
+
+Roles and Effort for Implementing ISO 27001.png
+
+
+
+
+Effort needed for the initial implementation
+
+In companies of up to 200 employees, the project manager will typically need to spend roughly 20% of his or her time throughout the whole project, e.g., 1 day per week. The larger and/or the more complex the company, the more time this project manager will need to invest – in companies of a couple of thousand employees, the project manager will probably need to work full time on a project like this.
+
+If you have a separate security officer from the project manager, this person will probably need to spend the same amount of time on the project as the project manager – e.g., in a company of 2,000 employees you might have a full-time project manager and a full-time security officer working on ISO 27001.
+
+In a smaller company, the workload for the heads of the departments for activities mentioned in the previous section will be about 7 hours per each department for risk assessment and treatment, and for reviewing documents; the top management will need to invest about 5 hours for making all the approvals.
+
+Again, this effort will be needed if you use an ISO 27001 tool or a consultant to help you; if not, you will need considerably more effort.
+Effort needed for the maintenance of the ISMS
+
+It is worth mentioning that the work on ISO 27001 doesn’t stop with the Plan and Do phases – the Information Security Management System (ISMS) that you create needs to be maintained (and improved), meaning that the work on information security is not one-off, but continuous.
+
+However, the effort for maintaining the system is not as great as in the initial implementation – it will probably be at 25% of the effort that was needed for the Plan and Do phases.
+
+
+
+
+
+
+
+How much does ISO 27001 implementation cost?
+
+This is usually the first question I receive from the potential client. To their disappointment, there is no one amount to give them, because this is not a purchase of an off-the-shelf product.
+
+Total cost of the implementation will depend on the following:
+
+    the size of your company, i.e., the number of employees (you should calculate only the employees that will be included in your ISO 27001 scope)
+    the level of criticality of information (for instance, information in banks is considered more critical and demands a higher level of protection)
+    the technology the organization is using (for instance, data centers tend to have higher costs because of their complex systems)
+    legislation requirements (usually, the financial and government sectors are heavily regulated with regards to information security)
+
+Further, there are several types of costs you need to take into account:
+
+    the literature and training
+    the cost of external assistance
+    the cost of employees’ time
+    the cost of new technology
+    the cost of certification
+
+Here’s an explanation of each of these costs and a rough estimate of amounts (all amounts are in US dollars):
+1. The cost of literature and training
+
+Implementation of ISO 27001 is rather complex, requires changes in your organization, and requires new skills. You can prepare your employees by buying various books on the subject and/or sending them to courses (in-person or online) – the duration of these courses varies from 1 to 5 days. Here you can see Advisera’s ISO 27001 courses – the cost is between $250 and $1,700 per person.
+
+And don’t forget to buy the ISO 27001 standard itself – too often, I run across companies implementing the standard without actually seeing it. Cost: around $100.
+2. The cost of external assistance
+
+Unfortunately, training your employees is not enough. If you don’t have a security officer with in-depth experience in ISO 27001 implementation, you’ll need someone who does have such knowledge – you can either hire a consultant or get some online alternative.
+
+Consultant costs differ greatly from one country to another, but for small companies in the United States, the cost could be around $15,000; the cost of Advisera’s Conformio ISO 27001 software is about $2,000 annually.
+
+However, be careful here – do not expect the consultant or online software to do the whole implementation for you – your employees will have to invest some time as well.
+
+
+3. The cost of employees’ time
+
+As explained in the sections above, your employees have to spend some time figuring out where the risks are, how to improve existing procedures and policies or implement new ones, and they have to take some time to train themselves for new responsibilities and for adapting to new rules.
+
+In the section “Effort needed” above, you can see the amount of time needed, so that you can calculate the associated costs of this time investment of your employees.
+
+
+4. The cost of technology
+
+It might seem funny, but most companies I’ve worked with did not need an investment in hardware, software, or anything similar. They already had all the technology they needed – however, during the implementation of ISO 27001 they had to start using that technology in a more secure way.
+
+So, from technology point of view most costs will be related to changing your existing activities, and those costs will be captured under the previous category – the cost of employees’ time.
+
+
+5. The cost of certification
+
+If you want to obtain public proof that you have complied with ISO 27001, the certification body will have to do a certification audit – this cost will also depend on the size of the company. In the United States, the certification of a smaller company might be around $7,500.
+
+See also: How to get ISO 27001 certified.
+
+To conclude, you have to be very careful not to underestimate the true cost of an ISO 27001 project – if you do, your management will start looking at your project in a negative light. On the other hand, forecasting all costs correctly will show your level of professionalism; and don’t forget – you always have to present both the cost and the benefits.
+
+
+Three strategies for ISO 27001 implementation
+
+In essence, you have three strategic options for implementing ISO 27001:
+a) Do it on your own without external help
+
+In this option, your employees are doing all the work without using any help from consultants or tools.
+
+This is the best option if you don’t want any outsiders in your company and if your budget is really tight, but it is feasible only if you have an employee who is already experienced in ISO 27001.
+b) Do it yourself with external help
+
+This where you implement the standard yourself (by performing all the analysis, interviews, writing the documentation, etc.), but you’re using an ISO 27001 tool and guidance from external experts to complete the project.
+
+This is the best option if you have a moderate budget, and if you want your employees to learn the most on how to manage security. Advisera’s Conformio is an example of such a tool.
+c) Consultant is doing most of the work
+
+This is where you hire an outside expert (i.e., ISO 27001 consultant) to do the whole job – this person will do all the work and will deliver you completed documentation.
+
+This is usually the quickest option for implementing the standard, but also the most expensive. Read also 5 criteria for choosing an ISO 22301 / ISO 27001 consultant.
+
+
+
+Four key benefits of ISO 27001:2022 implementation
+
+Have you ever tried to convince your management to fund the implementation of information security? If you have, you probably know how it feels – they will ask you how much it costs, and if it sounds too expensive, they will say no.
+
+Actually, you shouldn’t blame them – after all, their ultimate responsibility is the profitability of the company. That means their every decision is based on the balance between investment and benefit, or to put it in management’s language – ROI (return on investment).
+
+This means you have to do your homework first before trying to propose such an investment – think carefully about how to present the benefits, using language the management will understand and will endorse.
+
+I’ll help you – the benefits of information security, especially the implementation of ISO 27001:2022, are numerous. But in my experience, the following four are the most important:
+
+
+1) Compliance
+
+It might seem odd to list this as the first benefit, but it often shows the quickest “return on investment” – if a company must comply with various regulations regarding data protection, privacy, and IT governance (particularly if it is a financial, health, or government organization), then ISO 27001 can bring in the methodology that enables it to do so in the most efficient way.
+
+Even more important, if an existing customer asks you to comply with ISO 27001, then you need to comply with the standard to keep the client.
+
+
+2) Marketing edge
+
+In a market that is more and more competitive, it is sometimes very difficult to find something that will differentiate you in the eyes of potential customers.
+
+ISO 27001 could be a unique selling point that can set you apart from your competitors, especially if new clients want their data to be treated with great care.
+
+
+3) Lowering the expenses
+
+Information security is usually considered as a cost with no obvious financial gain. However, there is financial gain if you lower your expenses caused by incidents. You probably do have interruptions in service, or occasional data leakage, or disgruntled employees. Or disgruntled former employees.
+
+To be honest, there is still no methodology and/or technology to calculate how much money you could save if you prevented such incidents. But it always sounds good if you bring such cases to management’s attention.
+
+
+4) Bringing order to your business
+
+This one is probably the most underrated – if you are a company that has been growing rapidly for the last few years, you might experience problems like – who has to decide what, who is responsible for certain information assets, who has to authorize access to information systems, etc.
+
+ISO 27001 is particularly good in sorting these things out – it will force you to define roles and responsibilities very precisely, and therefore strengthen your internal organization.
+
+To conclude – ISO 27001 could bring in many benefits besides being just another certificate on your wall. In most cases, if you present those benefits in a clear way, the management will start listening to you.
+
+
+
+
+ISO 27001 project – key success factors
+
+Many companies don’t realize this, but setting up the ISO 27001 project properly at the beginning of the implementation is one of the most important elements if you want to complete the implementation within an acceptable time frame and budget.
+Don’t try this without management support
+
+Management commitment must come before anything else – if your top executives don’t see real benefit in increasing the level of security by setting clear rules, you would be better off investing your energy in something else.
+
+But this cannot happen in a short time, let alone in one meeting with a PowerPoint presentation. This is a process where you need to play an active role – first, you need to recognize the applicable benefits for your business, and then consistently push this message toward the decision makers.
+Get the knowledge
+
+Unless you’ve already implemented ISO 27001 a couple of times, you’ll need to learn how it is done. ISO 27001 implementation is way too complex to understand only by reading the standard.
+
+There are several ISO 27001 courses available for beginners or for advanced users – see the list of ISO 27001 trainings here.
+Run the implementation as a project
+
+If you know exactly what the objectives are, who is responsible for what, if the resources are available, and what the deliverables are, you will not only speed up the process – but also increase your chances of a successful outcome. (See here an example of a Project checklist for ISO 27001 implementation).
+
+The point is – the implementation of standards like these does take quite a lot of time, so you need to make sure you do it with a structure in mind. If implementation is done superficially or without clear objectives, you’ll not only lose time, but miss an opportunity to help your company improve and grow. And of course, you can decrease the implementation time – if you plan your project carefully.
+Choosing the right project manager
+
+The most natural person to lead the project should be a person who is in charge of information security in your company – there are different titles for this job: Chief Information Security Officer (CISO), Information Security Officer (ISO), Security Manager, etc. See also: Chief Information Security Officer (CISO) – where does he belong in an org chart?
+
+In any case, you have to choose a person with the following characteristics:
+
+    Good knowledge of both business and IT processes in your company – this person does not need to be an IT expert, but this person needs to have a working knowledge of IT
+    He or she needs to have enough time to run the project
+    And, most importantly, this person needs to have enough authority to push all the changes that are required
+
+In some cases, I’ve seen companies giving this project to a trainee, only to realize that the project has failed after a lot of effort.
+
+
+
+
+How to choose an ISO 27001 implementation tool
+
+Managing an ISO 27001 project without any guidance is like putting together a big jigsaw puzzle with a thousand pieces, but without the picture in front of you. What you really need in this situation is a guide.
+
+In this section, we propose the use of an ISO 27001 tool for managing the implementation. This alternative will hand over all the pieces of the puzzle with numbers on the backs and peace of mind.
+What to look for in an ISO 27001 implementation management tool
+
+Having an online tool to help you drive your ISO 27001 project forward is definitely a plus. However, before choosing a software solution, you need to understand that not every tool will fit your needs – you might be seduced by numerous features, but not all of these will be necessary for you, whereas there might be some other features you did not think of.
+
+So, you need to find a tool that has the functionalities to drive the ISO 27001 project forward, and that has the built-in expertise on how to comply with ISO 27001 requirements.
+
+You need a platform that will:
+
+    Provide clear steps for ISO 27001 project implementation
+    Provide easy-to-use wizards for creation of all documentation (policies, procedures, reports, etc.)
+    Automate the risk management process by suggesting assets, threats, vulnerabilities, and related controls
+    Automatically fill out the Statement of Applicability based on the risk treatment and requirements of interested parties
+    Enable easy collaboration between the people who work on the ISO 27001 implementation
+    Provide a clear overview of tasks received and tasks given to other people, as well as their status
+    Enable automation not only for the initial implementation, but also for the maintenance of the ISMS
+
+Besides the criteria listed above, the software should:
+
+    Be adapted for your company size – the documentation and the flow of steps is adapted to how big your company is
+    Provide support from experienced experts – if you have some questions on how to approach your specific case
+    Teach all the people about security – the point is not only to mechanically ask people to do some tasks, but also to explain them why these tasks are needed
+
+And last but not least, perhaps the most important criterion for selecting the ISO 27001 implementation tool is that it needs to have built-in expert logic on how to do the implementation properly – in other words, it needs to be designed by ISO 27001 experts, not only by designers and software developers.
+Advisera’s Conformio ISO 27001 software
+
+What if you had all the steps for your ISO 27001:2022 project set right before you, so that with a single glance you could understand each step ahead of you? Beautiful, right? Now, imagine that you have an explanation for how to complete each step, and you can access those guidelines any time and easily share them as actionable tasks with your team.
+
+Understanding the importance of such guidance, we have created Conformio, which will guide you through your ISO 27001 implementation and maintenance. Conformio is an online collaborative software designed around the steps to implement ISO 27001, including years of expertise on developing documents and providing support to organizations all around the world.
+
+This expertise is materialized in two essential elements, with the first one being the Document Wizards, which provide guidance on documentation development, and help in the definition for how tasks are distributed during implementation and ongoing maintenance of your ISMS. The second one is the Responsibility Matrix, which consolidates the information on who does what, and when, in each document, providing a basis for the automation of tasks, such as document review and internal audit.
+
+Conformio is designed for smaller companies, and provides you with the following:
+
+    Step-by-step guide for implementation and maintenance of the ISMS
+    Automation of risk assessment and treatment, as well as the Statement of Applicability
+    Sending tasks and messages between project members, enabling the collaboration on, e.g., document review and other tasks
+    Training videos for each step in the implementation
+
+
+
