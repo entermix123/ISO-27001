@@ -1,0 +1,238 @@
+ISO 27001:2022 Annex A – Information security controls reference provides a list of 93 security controls that are grouped into four sections. This module will explain the purpose of these four sections, give an overview of the security controls included, and present best practices of how to document and implement these controls in practice. The controls from Annex A are used to decrease security risks, as explained in previous moduCompulsory reading:
+
+1. article: Detailed explanation of 11 new security controls in ISO 27001:2022
+==============================================================================
+If you’re a security practitioner dealing with ISO 27001, you’re probably wondering what new things you will need to implement as part of the changes made to this standard in 2022.
+
+In this article, I’ll focus on 11 new controls introduced in ISO 27001. For general information about the changes, see this article: ISO 27001 2013 vs. 2022 revision – What has changed?
+
+11 new controls introduced in the ISO 27001 2022 revision:
+
+    A.5.7 Threat intelligence
+    A.5.23 Information security for use of cloud services
+    A.5.30 ICT readiness for business continuity
+    A.7.4 Physical security monitoring
+    A.8.9 Configuration management
+    A.8.10 Information deletion
+    A.8.11 Data masking
+    A.8.12 Data leakage prevention
+    A.8.16 Monitoring activities
+    A.8.23 Web filtering
+    A.8.28 Secure coding
+
+
+What you’ll notice is that some of these new ISO 27001 controls are very similar to old controls from the 2013 revision; however, because these controls were categorized as new in ISO 27002:2022, I have listed all 11 in this article.
+
+As the main source for this article, I’ve used guidelines from ISO 27002:2022 — I’ve given an overview of requirements, technology, people, and documentation, but if you’d like to learn about these controls in more depth, I encourage you to purchase the ISO 27002 standard from the ISO website. As you know, to become compliant with ISO 27001 security requirements, it is not mandatory to follow the guidelines from ISO 27002, which means the suggestions in this article are optional.
+
+Finally, keep in mind that these controls are not mandatory – ISO 27001 allows you to exclude a control if (1) you identified no related risks, and (2) there are no legal/regulatory/contractual requirements to implement that particular control.
+
+
+
+What are security controls in ISO 27001?
+
+According to ISO 27002, which offers guidance on the implementation of ISO 27001 controls, a security control is “a measure that modifies and/or maintains risk.” So, what does that mean? Basically, a security control is a measure, or safeguard, that a company can put in place to mitigate risk.
+
+
+What are the new controls in ISO 27001 2022?
+
+Let’s review the 11 new controls on the ISO 27001 controls list in more detail.
+
+11 new controls on the ISO 27001.png
+
+
+
+A.5.7 Threat intelligence
+-------------------------
+Description. This control requires you to gather information about threats and analyze them, in order to take appropriate mitigation actions. This information could be about particular attacks, about methods and technologies the attackers are using, and/or about attack trends. You should gather this information internally, as well as from external sources like vendor reports, government agency announcements, etc.
+
+Technology. Smaller companies probably do not need any new technology related to this control; rather, they will have to figure out how to extract the threat information from their existing systems. If they do not have one already, larger companies will need to acquire a system that will alert them to new threats (as well as to vulnerabilities and incidents). Companies of any size will have to use threat information to harden their systems.
+
+Organization/processes. You should set the processes for how to gather and use the threat information to introduce preventive controls in your IT systems, to improve your risk assessment, and to introduce new methods for security testing.
+
+People. Make employees aware of the importance of sending threat notifications, and train them on how and to whom these threats are to be communicated.
+
+Documentation. No documentation is required by ISO 27001; however, you might include rules about threat intelligence in the following documents:
+
+-    Supplier Security Policy – Define how the information about threats is communicated between the company and its suppliers and partners.
+-    Incident Management Procedure – Define how the information about threats is communicated internally in the company.
+-    Security Operating Procedures – Define how to gather and process information about the threats.
+
+
+A.5.23 Information security for use of cloud services
+-----------------------------------------------------
+Description. This control requires you to set security requirements for cloud services in order to have better protection of your information in the cloud. This includes purchasing, using, managing, and terminating the use of cloud services.
+
+Technology. In most cases, new technology will not be needed, because the majority of cloud services already have security features. In some cases, you might need to upgrade your service to a more secure one, while in some rare cases you will need to change the cloud provider if it does not have security features. For the most part, the only change required will be using existing cloud security features in a more thorough way.
+
+Organization/processes. You should set up a process to determine security requirements for cloud services and for determining the criteria for selecting a cloud provider; further, you should define a process for determining acceptable use of the cloud, and also the security requirements when cancelling the use of a cloud service.
+
+People. Make employees aware of the security risks of using cloud services, and train them on how to use the security features of cloud services.
+
+Documentation. No documentation is required by ISO 27001; however, if you are a smaller company, you might include rules about cloud services in the Supplier Security Policy. Larger companies might develop a separate policy that would focus specifically on security for cloud services.
+
+
+
+A.5.30 ICT readiness for business continuity
+--------------------------------------------
+Description. This control requires your information and communication technology to be ready for potential disruptions so that required information and assets are available when needed. This includes readiness planning, implementation, maintenance, and testing.
+
+Technology. If you did not invest in solutions that enable resilience and redundancy of your systems, you might need to introduce such technology – this might range from data backup to redundant communication links. These solutions need to be planned based on your risk assessment and how quickly you need your data and your systems to be recovered.
+
+Organization/processes. Besides the planning process, which needs to take into account the risks and business needs for recovery, you should also set up the maintenance process for your technology, and the testing process for your disaster recovery and/or business continuity plans.
+
+People. Make employees aware of potential disruptions that could happen, and train them on how to maintain IT and communication technology so that it is ready for a disruption.
+
+Documentation. No documentation is required by ISO 27001; however, if you are a smaller company, you might include the ICT readiness in the following documents:
+
+    Disaster Recovery Plan – readiness planning, implementation, and maintenance
+    Internal Audit Report – readiness testing
+
+If you are a larger organization, or if you implemented ISO 22301, then you should document readiness through the Business Impact Analysis, Business Continuity Strategy, Business Continuity Plan, and Business Continuity Testing Plan & Report.
+
+
+A.7.4 Physical security monitoring
+----------------------------------
+Description. This control requires you to monitor sensitive areas in order to enable only authorized people to access them. This might include your offices, production facilities, warehouses, and other premises.
+
+Technology. Depending on your risks, you might need to implement alarm systems or video monitoring; you might also decide to implement a non-tech solution like a person observing the area (e.g., a guard).
+
+Organization/processes. You should define who is in charge of the monitoring of sensitive areas, and what communication channels to use to report an incident.
+
+People. Make employees aware of the risks of unauthorized physical entry into sensitive areas, and train them how to use the monitoring technology.
+
+Documentation. No documentation is required by ISO 27001; however, you might include physical security monitoring in the following documents:
+
+    Procedures that Regulate Physical Security – what is monitored, and who is in charge of monitoring
+    Incident Management Procedure – how to report and handle a physical security incident
+
+
+A.8.9 Configuration management
+------------------------------
+Description. This control requires you to manage the whole cycle of security configuration for your technology to ensure a proper level of security and to avoid any unauthorized changes. This includes configuration definition, implementation, monitoring, and review.
+
+Technology. The technology whose configuration needs to be managed could include software, hardware, services, or networks. Smaller companies will probably be able to handle configuration management without any additional tools, whereas larger companies probably need some software that enforces defined configurations.
+
+Organization/processes. You should set up a process for proposing, reviewing, and approving security configurations, as well as the processes for managing and monitoring the configurations.
+
+People. Make employees aware of why strict control of security configuration is needed, and train them on how to define and implement security configurations.
+
+Documentation. ISO 27001 requires this control to be documented. If you are a small company, you can document the configuration rules in your Security Operating Procedures. Larger companies will typically have a separate procedure that defines the configuration process.
+
+You will usually have separate specifications that define security configurations for each of your systems, in order to avoid frequent updates of the documents mentioned in the previous paragraph. Further, all changes to configurations need to be logged to enable an audit trail.
+
+
+
+A.8.10 Information deletion
+---------------------------
+Description. This control requires you to delete data when no longer required, in order to avoid leakage of sensitive information and to enable compliance with privacy and other requirements. This could include deletion in your IT systems, removable media, or cloud services.
+
+Technology. You should be using tools for secure deletion, according to regulatory or contractual requirements, or in line with your risk assessment.
+
+Organization/processes. You should set up a process that will define which data need to be deleted and when, and define responsibilities and methods for deletion.
+
+People. Make employees aware of why deleting sensitive information is important, and train them on how to do this properly.
+
+Documentation. No documentation is required by ISO 27001; however, you might include rules about information deletion in the following documents:
+
+    Disposal and Destruction Policy – how the information on removable media is deleted
+    Acceptable Use Policy – how regular users need to delete the sensitive information on their computers and mobile devices
+    Security Operating Procedures – how system administrators need to delete the sensitive information on servers and networks
+
+Larger organizations might also have a Data Retention Policy that defines how long each type of information is needed, and when it needs to be deleted.
+
+
+
+A.8.11 Data masking
+-------------------
+Description. This control requires you to use data masking together with access control in order to limit the exposure of sensitive information. This primarily means personal data, because they are heavily regulated through privacy regulations, but it could also include other categories of sensitive data.
+
+Technology. Companies can use tools for pseudonymization or anonymization in order to mask data if this is required by privacy or other regulations. Other methods like encryption or obfuscation can also be used.
+
+Organization/processes. You should set up processes that will determine which data need to be masked, who can access which type of data, and which methods will be used to mask the data.
+
+People. Make employees aware of why masking data is important, and train them on which data need to be masked and how.
+
+Documentation. No documentation is required by ISO 27001; however, you might include rules on data masking in the following documents:
+
+    Information Classification Policy – determine which data are sensitive and what categories of data need to be masked
+    Access Control Policy – defines who can access what type of masked or unmasked data
+    Secure Development Policy – defines the technology of masking the data
+
+Larger companies, or companies that need to be compliant with the European Union General Data Protection Regulation (EU GDPR) and similar privacy regulations, should also have the following documents:
+
+    Privacy Policy / Personal Data Protection Policy – overall responsibilities for data masking
+    Anonymization and Pseudonymization Policy – details on how data masking is implemented in the context of a privacy regulation
+
+
+A.8.12 Data leakage prevention
+------------------------------
+Description. This control requires you to apply various data leakage measures in order to avoid unauthorized disclosure of sensitive information, and if such incidents happen, to detect them in a timely manner. This includes information in IT systems, networks, or any devices.
+
+Technology. For this purpose, you could use systems to monitor potential leakage channels, including emails, removable storage devices, mobile devices, etc., and systems that prevent information from leaking – e.g., disabling download to removable storage, email quarantine, restricting copy and paste of data, restricting upload of data to external systems, encryption, etc.
+
+Organization/processes. You should set up processes that determine the sensitivity of data, assess the risks of various technologies (e.g., risks of taking photos of sensitive information with a smartphone), monitor channels with the potential of data leakage, and define which technology to use to block the exposure of sensitive data.
+
+People. Make employees aware of what kind of sensitive data is handled in the company and why it is important to prevent leakages, and train them on what is and what isn’t allowed when handling sensitive data.
+
+Documentation. No documentation is required by ISO 27001; however, you might include rules on data leakage prevention in the following documents:
+
+    Information Classification Policy – the more sensitive the data are, the more prevention needs to be applied
+    Security Operating Procedures – which systems for monitoring and prevention should be used by administrators
+    Policy on Acceptable Use – what is and what isn’t allowed for regular users
+
+
+
+A.8.16 Monitoring activities
+----------------------------
+Description. This control requires you to monitor your systems in order to recognize unusual activities and, if needed, to activate the appropriate incident response. This includes monitoring of your IT systems, networks, and applications.
+
+Technology. For your networks, systems, and applications, you could monitor the following: security tool logs, event logs, who is accessing what, activities of your main administrators, inbound and outbound traffic, proper execution of the code, and how the system resources are performing.
+
+Organization/processes. You should set up a process that defines which systems will be monitored; how the responsibilities for monitoring are determined; and the methods of monitoring, establishing a baseline for unusual activities, and reporting events and incidents.
+
+People. Make employees aware that their activities will be monitored, and explain what is and what is not considered normal behavior. Train IT administrators to use monitoring tools.
+
+Documentation. No documentation is required by ISO 27001; however, if you are a smaller company, you might include rules about monitoring in the Security Operating Procedures. Larger companies might develop a separate procedure that would describe how to monitor their systems.
+
+On top of this, it would be useful to keep records of monitoring activities.
+
+
+
+A.8.23 Web filtering
+--------------------
+Description. This control requires you to manage which websites your users are accessing, in order to protect your IT systems. This way, you can prevent your systems from being compromised by malicious code, and also prevent users from using illegal materials from the Internet.
+
+Technology. You could use tools that block access to particular IP addresses, which could include the usage of anti-malware software. You could also use non-tech methods like developing a list of forbidden websites and asking users not to visit them.
+
+Organization/processes. You should set up processes that determine which types of websites are not allowed, and how the web filtering tools are maintained.
+
+People. Make employees aware of the dangers of using the Internet and where to find guidelines for safe use, and train your system administrators on how to perform web filtering.
+
+Documentation. No documentation is required by ISO 27001; however if you are a smaller company, you might include rules about web filtering in the following documents:
+
+    Security Operating Procedures – Define rules for system administrators on how to implement web filtering.
+    Acceptable Use Policy – Define rules for all users on what is acceptable usage of Internet.
+
+Larger companies might develop a separate procedure that would describe how the web filtering is performed.
+
+
+
+
+
+A.8.28 Secure coding
+--------------------
+Description. This control requires you to establish secure coding principles and apply them to your software development in order to reduce security vulnerabilities in the software. This could include activities before, during, and after the coding.
+
+Technology. You might be using tools for maintaining an inventory of libraries, for protecting the source code from tampering, for logging errors and attacks, and for testing; you could also use security components like authentication, encryption, etc.
+
+Organization/processes. You should set up a process for defining the minimum baseline of secure coding – both for internal software development and for software components from third parties, a process for monitoring emerging threats and advice on secure coding, a process for deciding which external tools and libraries can be used, and a process that defines activities done before the coding, during the coding, after the coding (review and maintenance), and for software modification.
+
+People. Make your software developers aware of the importance of using secure coding principles, and train them on methods and tools for secure coding.
+
+Documentation. No documentation is required by ISO 27001; however if you are a smaller company, you might include rules about secure coding in the Secure Development Policy. Larger companies might develop separate procedures for secure coding for each of their software development projects.
+
+
+
+
+
